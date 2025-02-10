@@ -1,0 +1,13 @@
+﻿[2025-01-24 03:23:57.633] [info   ] [DULib      ] [25552: 3560] [84EFB6:  38] [24.2.5585.0] [UpdateManager.cpp] [38] DriverUpdater::UpdateManager::UpdateManager: Initialize Update Engine
+[2025-01-24 03:24:01.571] [info   ] [DULib      ] [25552:12996] [7E38C3:1416] [24.2.5585.0] [DriverUpdater.cpp] [1416] DriverUpdater::DriverUpdaterImpl::logTask: Creating new SCAN Task
+[2025-01-24 03:24:01.573] [info   ] [DULib      ] [25552: 1116] [7E38C3:2239] [24.2.5585.0] [DriverUpdater.cpp] [2239] DriverUpdater::DriverUpdaterImpl::Scan: Starting Scan
+[2025-01-24 03:24:04.819] [info   ] [DULib      ] [25552: 1116] [7E38C3:2331] [24.2.5585.0] [DriverUpdater.cpp] [2331] DriverUpdater::DriverUpdaterImpl::Scan: Scan operation aborted by user.
+[2025-01-24 15:04:05.582] [info   ] [DULib      ] [30652:13428] [84EFB6:  38] [24.2.5585.0] [UpdateManager.cpp] [38] DriverUpdater::UpdateManager::UpdateManager: Initialize Update Engine
+[2025-01-24 15:04:31.834] [info   ] [DULib      ] [28060: 2384] [84EFB6:  38] [24.2.5585.0] [UpdateManager.cpp] [38] DriverUpdater::UpdateManager::UpdateManager: Initialize Update Engine
+[2025-01-24 15:04:57.951] [info   ] [DULib      ] [32460:22072] [84EFB6:  38] [24.2.5585.0] [UpdateManager.cpp] [38] DriverUpdater::UpdateManager::UpdateManager: Initialize Update Engine
+[2025-01-24 15:05:30.714] [info   ] [DULib      ] [19168:18688] [84EFB6:  38] [24.2.5585.0] [UpdateManager.cpp] [38] DriverUpdater::UpdateManager::UpdateManager: Initialize Update Engine
+[2025-01-24 15:07:19.975] [info   ] [DULib      ] [ 1968:32992] [84EFB6:  38] [24.2.5585.0] [UpdateManager.cpp] [38] DriverUpdater::UpdateManager::UpdateManager: Initialize Update Engine
+[2025-01-24 15:07:20.240] [info   ] [DULib      ] [ 1968:13444] [7E38C3:1416] [24.2.5585.0] [DriverUpdater.cpp] [1416] DriverUpdater::DriverUpdaterImpl::logTask: Creating new SCAN Task
+[2025-01-24 15:07:20.242] [info   ] [DULib      ] [ 1968:33092] [7E38C3:2239] [24.2.5585.0] [DriverUpdater.cpp] [2239] DriverUpdater::DriverUpdaterImpl::Scan: Starting Scan
+[2025-01-24 15:07:22.574] [info   ] [DULib      ] [ 1968:33092] [671244:3512] [24.2.5585.0] [Device.cpp] [3512] DriverUpdater::Device::RefreshFunctionalState: Device functional state result: 227
+[2025-01-24 15:07:24.893] [info   ] [DULib      ] [ 1968:33092] [7E38C3:2331] [24.2.5585.0] [DriverUpdater.cpp] [2331] DriverUpdater::DriverUpdaterImpl::Scan: Scan operation aborted by user.

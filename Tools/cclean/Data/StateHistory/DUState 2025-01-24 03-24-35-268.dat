@@ -1,0 +1,5249 @@
+{
+	"Backups" : [],
+	"DeviceList" : 
+	[
+		{
+			"childrenIds" : 
+			[
+				"ACPI\\PNP0C02\\14"
+			],
+			"class" : "System",
+			"classGuid" : "{4D36E97D-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "System",
+			"compatibleIds" : 
+			[
+				"PCI\\VEN_1022&DEV_14D8&REV_00",
+				"PCI\\VEN_1022&DEV_14D8",
+				"PCI\\VEN_1022&CC_060000",
+				"PCI\\VEN_1022&CC_0600",
+				"PCI\\VEN_1022",
+				"PCI\\CC_060000",
+				"PCI\\CC_0600"
+			],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 75,
+			"driversList" : [],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"PCI\\VEN_1022&DEV_14D8&SUBSYS_14D81022&REV_00",
+				"PCI\\VEN_1022&DEV_14D8&SUBSYS_14D81022",
+				"PCI\\VEN_1022&DEV_14D8&CC_060000",
+				"PCI\\VEN_1022&DEV_14D8&CC_0600"
+			],
+			"hasProblem" : false,
+			"hash" : "0290FC4AC7A02A2A851F83DFF0D5DC6A005563CDE06AB1DC323BDB8243A28F1B",
+			"id" : "(\ud45c\uc900\uc2dc\uc2a4\ud15c\uc7a5\uce58)-PCI\ud45c\uc900\ud638\uc2a4\ud2b8CPU\ube0c\ub9ac\uc9c0",
+			"ignored" : false,
+			"installDate" : 13381392270,
+			"installDateFormatted" : "2025-01-15 05:24:30",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "PCI\\VEN_1022&DEV_14D8&SUBSYS_14D81022&REV_00\\3&11583659&0&00",
+			"instances" : 
+			[
+				"PCI\\VEN_1022&DEV_14D8&SUBSYS_14D81022&REV_00\\3&11583659&0&00"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "PCI bus 0, device 0, function 0",
+			"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+			"name" : "PCI \ud45c\uc900 \ud638\uc2a4\ud2b8 CPU \ube0c\ub9ac\uc9c0",
+			"parent" : "ACPI\\PNP0A08\\0",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 0
+		},
+		{
+			"childrenIds" : 
+			[
+				"USB\\ROOT_HUB30\\7&DACBA&0&0"
+			],
+			"class" : "USB",
+			"classGuid" : "{36FC9E60-C465-11CF-8056-444553540000}",
+			"classIconName" : "USB",
+			"compatibleIds" : 
+			[
+				"PCI\\VEN_1022&DEV_43F7&REV_01",
+				"PCI\\VEN_1022&DEV_43F7",
+				"PCI\\VEN_1022&CC_0C0330",
+				"PCI\\VEN_1022&CC_0C03",
+				"PCI\\VEN_1022",
+				"PCI\\CC_0C0330&DT_1",
+				"PCI\\CC_0C0330",
+				"PCI\\CC_0C03&DT_1",
+				"PCI\\CC_0C03"
+			],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 182,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "USB xHCI \uaddc\uaca9 \ud638\uc2a4\ud2b8 \ucee8\ud2b8\ub864\ub7ec",
+					"driverDate" : 13376102400,
+					"driverDateFormatted" : "2024-11-15 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{36fc9e60-c465-11cf-8056-444553540000}\\0003",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.2454",
+					"fix" : false,
+					"flags" : 1318980,
+					"friendlyName" : "AMD USB 3.10 \ud655\uc7a5 \uac00\ub2a5\ud55c \ud638\uc2a4\ud2b8 \ucee8\ud2b8\ub864\ub7ec - 1.10(Microsoft)",
+					"hardwareId" : "pci\\cc_0c0330",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13381469917,
+					"infDateFormatted" : "2025-01-16 02:58:37",
+					"infFileName" : "usbxhci.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "\uc77c\ubc18 USB xHCI \ud638\uc2a4\ud2b8 \ucee8\ud2b8\ub864\ub7ec",
+					"matchingId" : "03C3EBD02205B8BC1490CEB5D83E28270BD4A165BFF4F78F2E07F10465D88917",
+					"oemInf" : "C:\\WINDOWS\\INF\\usbxhci.inf",
+					"providerName" : "Microsoft",
+					"rank" : 8396806,
+					"rejectedReason" : 0,
+					"sectionName" : "Generic.Install",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\usbxhci.inf_amd64_fc8670ce4b0a8dbf\\usbxhci.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"PCI\\VEN_1022&DEV_43F7&SUBSYS_11421B21&REV_01",
+				"PCI\\VEN_1022&DEV_43F7&SUBSYS_11421B21",
+				"PCI\\VEN_1022&DEV_43F7&CC_0C0330",
+				"PCI\\VEN_1022&DEV_43F7&CC_0C03"
+			],
+			"hasProblem" : false,
+			"hash" : "03C3EBD02205B8BC1490CEB5D83E28270BD4A165BFF4F78F2E07F10465D88917",
+			"id" : "\uc77c\ubc18USBxHCI\ud638\uc2a4\ud2b8\ucee8\ud2b8\ub864\ub7ec-AMDUSB3.10\ud655\uc7a5\uac00\ub2a5\ud55c\ud638\uc2a4\ud2b8\ucee8\ud2b8\ub864\ub7ec-1.10(Microsoft)",
+			"ignored" : false,
+			"installDate" : 13381392270,
+			"installDateFormatted" : "2025-01-15 05:24:30",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "PCI\\VEN_1022&DEV_43F7&SUBSYS_11421B21&REV_01\\6&2766D23F&0&00600011",
+			"instances" : 
+			[
+				"PCI\\VEN_1022&DEV_43F7&SUBSYS_11421B21&REV_01\\6&2766D23F&0&00600011"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "PCI bus 116, device 0, function 0",
+			"manufacturer" : "\uc77c\ubc18 USB xHCI \ud638\uc2a4\ud2b8 \ucee8\ud2b8\ub864\ub7ec",
+			"name" : "AMD USB 3.10 \ud655\uc7a5 \uac00\ub2a5\ud55c \ud638\uc2a4\ud2b8 \ucee8\ud2b8\ub864\ub7ec - 1.10(Microsoft)",
+			"parent" : "PCI\\VEN_1022&DEV_43F5&SUBSYS_33281B21&REV_01\\5&2B8B9E2F&0&600011",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : [],
+			"class" : "SecurityDevices",
+			"classGuid" : "{D94EE5D8-D189-4994-83D2-F68D7D41B0E6}",
+			"classIconName" : "SecurityDevices",
+			"compatibleIds" : [],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 108,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "\uc2e0\ub8b0\ud560 \uc218 \uc788\ub294 \ud50c\ub7ab\ud3fc \ubaa8\ub4c8 2.0",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{d94ee5d8-d189-4994-83d2-f68d7d41b0e6}\\0000",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.2454",
+					"fix" : false,
+					"flags" : 1351748,
+					"friendlyName" : "\uc2e0\ub8b0\ud560 \uc218 \uc788\ub294 \ud50c\ub7ab\ud3fc \ubaa8\ub4c8 2.0",
+					"hardwareId" : "acpi\\msft0101",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13381469917,
+					"infDateFormatted" : "2025-01-16 02:58:37",
+					"infFileName" : "tpm.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "(\ud45c\uc900)",
+					"matchingId" : "0464A13F368D20F4FA36CF4EB98C0B907A72A5E0417562E81E2256626EB71800",
+					"oemInf" : "C:\\WINDOWS\\INF\\tpm.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16711681,
+					"rejectedReason" : 0,
+					"sectionName" : "Tpm2BaseInstall",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\tpm.inf_amd64_71ea8f1b040e7c0e\\tpm.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"ACPI\\VEN_MSFT&DEV_0101",
+				"ACPI\\MSFT0101",
+				"*MSFT0101"
+			],
+			"hasProblem" : false,
+			"hash" : "0464A13F368D20F4FA36CF4EB98C0B907A72A5E0417562E81E2256626EB71800",
+			"id" : "(\ud45c\uc900)-\uc2e0\ub8b0\ud560\uc218\uc788\ub294\ud50c\ub7ab\ud3fc\ubaa8\ub4c82.0",
+			"ignored" : false,
+			"installDate" : 13381392270,
+			"installDateFormatted" : "2025-01-15 05:24:30",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "ACPI\\MSFT0101\\1",
+			"instances" : 
+			[
+				"ACPI\\MSFT0101\\1"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "",
+			"manufacturer" : "(\ud45c\uc900)",
+			"name" : "\uc2e0\ub8b0\ud560 \uc218 \uc788\ub294 \ud50c\ub7ab\ud3fc \ubaa8\ub4c8 2.0",
+			"parent" : "ACPI_HAL\\PNP0C08\\0",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : 
+			[
+				"ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_68_-_AMD_RYZEN_5_9600X_6-CORE_PROCESSOR_____________\\0",
+				"ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_68_-_AMD_RYZEN_5_9600X_6-CORE_PROCESSOR_____________\\1",
+				"ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_68_-_AMD_RYZEN_5_9600X_6-CORE_PROCESSOR_____________\\2",
+				"ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_68_-_AMD_RYZEN_5_9600X_6-CORE_PROCESSOR_____________\\3",
+				"ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_68_-_AMD_RYZEN_5_9600X_6-CORE_PROCESSOR_____________\\4",
+				"ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_68_-_AMD_RYZEN_5_9600X_6-CORE_PROCESSOR_____________\\5",
+				"ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_68_-_AMD_RYZEN_5_9600X_6-CORE_PROCESSOR_____________\\6",
+				"ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_68_-_AMD_RYZEN_5_9600X_6-CORE_PROCESSOR_____________\\7",
+				"ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_68_-_AMD_RYZEN_5_9600X_6-CORE_PROCESSOR_____________\\8",
+				"ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_68_-_AMD_RYZEN_5_9600X_6-CORE_PROCESSOR_____________\\9",
+				"ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_68_-_AMD_RYZEN_5_9600X_6-CORE_PROCESSOR_____________\\A",
+				"ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_26_MODEL_68_-_AMD_RYZEN_5_9600X_6-CORE_PROCESSOR_____________\\B"
+			],
+			"class" : "System",
+			"classGuid" : "{4D36E97D-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "System",
+			"compatibleIds" : 
+			[
+				"*PNP0A05"
+			],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 39,
+			"driversList" : [],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"ACPI\\VEN_ACPI&DEV_0010",
+				"ACPI\\ACPI0010",
+				"*ACPI0010"
+			],
+			"hasProblem" : false,
+			"hash" : "04C5F56C35FD9399348C35267B07A3D5101AE03053E93F3029989635E226B265",
+			"id" : "(\ud45c\uc900\uc2dc\uc2a4\ud15c\uc7a5\uce58)-ACPI\ud504\ub85c\uc138\uc11c\ucee8\ud14c\uc774\ub108\ub514\ubc14\uc774\uc2a4",
+			"ignored" : false,
+			"installDate" : 13381392270,
+			"installDateFormatted" : "2025-01-15 05:24:30",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "ACPI\\ACPI0010\\1",
+			"instances" : 
+			[
+				"ACPI\\ACPI0010\\1"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "",
+			"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+			"name" : "ACPI \ud504\ub85c\uc138\uc11c \ucee8\ud14c\uc774\ub108 \ub514\ubc14\uc774\uc2a4",
+			"parent" : "ACPI_HAL\\PNP0C08\\0",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 0
+		},
+		{
+			"childrenIds" : [],
+			"class" : "MEDIA",
+			"classGuid" : "{4D36E96C-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "Audio",
+			"compatibleIds" : [],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 141,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "NVIDIA Virtual Audio Device (Wave Extensible) (WDM)",
+					"driverDate" : 13353552000,
+					"driverDateFormatted" : "2024-02-28 00:00:00",
+					"driverFiles" : 
+					[
+						"C:\\WINDOWS\\system32\\drivers\\nvvad64v.sys",
+						"C:\\WINDOWS\\system32\\DRIVERS\\drmk.sys",
+						"C:\\WINDOWS\\system32\\DRIVERS\\portcls.sys"
+					],
+					"driverKey" : "{4d36e96c-e325-11ce-bfc1-08002be10318}\\0000",
+					"driverType" : 2,
+					"driverVersion" : "4.65.0.3",
+					"fix" : false,
+					"flags" : 270400,
+					"friendlyName" : "NVIDIA Virtual Audio Device (Wave Extensible) (WDM)",
+					"hardwareId" : "usb\\vid_0955&pid_9000",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : false,
+					"infDate" : 13381390925,
+					"infDateFormatted" : "2025-01-15 05:02:05",
+					"infFileName" : "nvvad.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "NVIDIA",
+					"matchingId" : "086B691DA51C871450D0A695A4B051009B9E4011CF75AC83CB7458D8BB3860A3",
+					"oemInf" : "C:\\WINDOWS\\INF\\oem46.inf",
+					"providerName" : "NVIDIA",
+					"rank" : 16711680,
+					"rejectedReason" : 0,
+					"sectionName" : "NVVAD_WaveExtensible64",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nvvad.inf_amd64_35079c3b2e98dd66\\nvvad.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"USB\\VID_0955&PID_9000"
+			],
+			"hasProblem" : false,
+			"hash" : "086B691DA51C871450D0A695A4B051009B9E4011CF75AC83CB7458D8BB3860A3",
+			"id" : "NVIDIA-NVIDIAVirtualAudioDevice(WaveExtensible)(WDM)",
+			"ignored" : false,
+			"installDate" : 13381392281,
+			"installDateFormatted" : "2025-01-15 05:24:41",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "ROOT\\UNNAMED_DEVICE\\0000",
+			"instances" : 
+			[
+				"ROOT\\UNNAMED_DEVICE\\0000"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "",
+			"manufacturer" : "NVIDIA",
+			"name" : "NVIDIA Virtual Audio Device (Wave Extensible) (WDM)",
+			"parent" : "HTREE\\ROOT\\0",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : [],
+			"class" : "System",
+			"classGuid" : "{4D36E97D-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "System",
+			"compatibleIds" : 
+			[
+				"PCI\\VEN_1022&CC_060000",
+				"PCI\\VEN_1022&CC_0600",
+				"PCI\\VEN_1022",
+				"PCI\\CC_060000",
+				"PCI\\CC_0600"
+			],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 96,
+			"driversList" : [],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"PCI\\VEN_1022&DEV_14E0&SUBSYS_00000000&REV_00",
+				"PCI\\VEN_1022&DEV_14E0&SUBSYS_00000000",
+				"PCI\\VEN_1022&DEV_14E0&REV_00",
+				"PCI\\VEN_1022&DEV_14E0",
+				"PCI\\VEN_1022&DEV_14E0&CC_060000",
+				"PCI\\VEN_1022&DEV_14E0&CC_0600"
+			],
+			"hasProblem" : false,
+			"hash" : "096FB7F742222BD8D6222916C72CA128D23E6CBD352D66F8CDF40D487646AD8C",
+			"id" : "(\ud45c\uc900\uc2dc\uc2a4\ud15c\uc7a5\uce58)-PCI\ud45c\uc900\ud638\uc2a4\ud2b8CPU\ube0c\ub9ac\uc9c0",
+			"ignored" : false,
+			"installDate" : 13381392270,
+			"installDateFormatted" : "2025-01-15 05:24:30",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "PCI\\VEN_1022&DEV_14E0&SUBSYS_00000000&REV_00\\3&11583659&0&C0",
+			"instances" : 
+			[
+				"PCI\\VEN_1022&DEV_14E0&SUBSYS_00000000&REV_00\\3&11583659&0&C0"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "PCI bus 0, device 24, function 0",
+			"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+			"name" : "PCI \ud45c\uc900 \ud638\uc2a4\ud2b8 CPU \ube0c\ub9ac\uc9c0",
+			"parent" : "ACPI\\PNP0A08\\0",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 0
+		},
+		{
+			"childrenIds" : 
+			[
+				"SWD\\MMDEVAPI\\{0.0.1.00000000}.{7F3BD1C5-23DA-47E3-8C28-BD6AEF375F28}"
+			],
+			"class" : "MEDIA",
+			"classGuid" : "{4D36E96C-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "Audio",
+			"compatibleIds" : 
+			[
+				"HDAUDIO\\FUNC_01&CTLR_VEN_1022&CTLR_DEV_15E3&VEN_10EC&DEV_0897&REV_1004",
+				"HDAUDIO\\FUNC_01&CTLR_VEN_1022&VEN_10EC&DEV_0897&REV_1004",
+				"HDAUDIO\\FUNC_01&VEN_10EC&DEV_0897&REV_1004",
+				"HDAUDIO\\FUNC_01&CTLR_VEN_1022&CTLR_DEV_15E3&VEN_10EC&DEV_0897",
+				"HDAUDIO\\FUNC_01&CTLR_VEN_1022&VEN_10EC&DEV_0897",
+				"HDAUDIO\\FUNC_01&VEN_10EC&DEV_0897",
+				"HDAUDIO\\FUNC_01&CTLR_VEN_1022&CTLR_DEV_15E3&VEN_10EC",
+				"HDAUDIO\\FUNC_01&CTLR_VEN_1022&VEN_10EC",
+				"HDAUDIO\\FUNC_01&VEN_10EC",
+				"HDAUDIO\\FUNC_01&CTLR_VEN_1022&CTLR_DEV_15E3",
+				"HDAUDIO\\FUNC_01&CTLR_VEN_1022",
+				"HDAUDIO\\FUNC_01&GF&VEN_10EC&DEV_0897&SUBSYS_18491897&REV_1004",
+				"HDAUDIO\\FUNC_01"
+			],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 29,
+			"deviceInst" : 69,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "High Definition Audio \uc7a5\uce58",
+					"driverDate" : 13364438400,
+					"driverDateFormatted" : "2024-07-03 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{4d36e96c-e325-11ce-bfc1-08002be10318}\\0004",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1150",
+					"fix" : false,
+					"flags" : 1318980,
+					"friendlyName" : "High Definition Audio \uc7a5\uce58",
+					"hardwareId" : "hdaudio\\func_01\u0000\u0000",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372560146,
+					"infDateFormatted" : "2024-10-05 00:02:26",
+					"infFileName" : "hdaudio.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "Microsoft",
+					"matchingId" : "0DA87B21EBE3CC31BBBFA1B2898A8F252F027B739F703DF1F58706CBD799E6B3",
+					"oemInf" : "C:\\WINDOWS\\INF\\hdaudio.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16723980,
+					"rejectedReason" : 0,
+					"sectionName" : "HdAudModel",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\hdaudio.inf_amd64_22f2127ec785fb8d\\hdaudio.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"HDAUDIO\\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_18491897&REV_1004",
+				"HDAUDIO\\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_18491897"
+			],
+			"hasProblem" : false,
+			"hash" : "0DA87B21EBE3CC31BBBFA1B2898A8F252F027B739F703DF1F58706CBD799E6B3",
+			"id" : "Microsoft-HighDefinitionAudio\uc7a5\uce58",
+			"ignored" : false,
+			"installDate" : 13381392282,
+			"installDateFormatted" : "2025-01-15 05:24:42",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "HDAUDIO\\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_18491897&REV_1004\\5&63D5943&0&0001",
+			"instances" : 
+			[
+				"HDAUDIO\\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_18491897&REV_1004\\5&63D5943&0&0001"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "Internal High Definition Audio Bus",
+			"manufacturer" : "Microsoft",
+			"name" : "High Definition Audio \uc7a5\uce58",
+			"parent" : "PCI\\VEN_1022&DEV_15E3&SUBSYS_18971849&REV_00\\4&16012499&0&0641",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : 
+			[
+				"HID\\VID_1532&PID_028D&MI_04&COL01\\A&23A39C64&0&0000",
+				"HID\\VID_1532&PID_028D&MI_04&COL02\\A&23A39C64&0&0001"
+			],
+			"class" : "HIDClass",
+			"classGuid" : "{745A17A0-74D3-11D0-B6FE-00A0C90F57DA}",
+			"classIconName" : "USB",
+			"compatibleIds" : 
+			[
+				"USB\\COMPAT_VID_1532&Class_03&SubClass_00&Prot_01",
+				"USB\\COMPAT_VID_1532&Class_03&SubClass_00",
+				"USB\\COMPAT_VID_1532&Class_03",
+				"USB\\Class_03&SubClass_00&Prot_01",
+				"USB\\Class_03&SubClass_00",
+				"USB\\Class_03"
+			],
+			"connected" : true,
+			"containerId" : "{FE82DF26-D300-11EF-B8C1-806E6F6E6963}",
+			"devType" : 34,
+			"deviceInst" : 160,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "USB \uc785\ub825 \uc7a5\uce58",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}\\0006",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1882",
+					"fix" : false,
+					"flags" : 3416132,
+					"friendlyName" : "USB \uc785\ub825 \uc7a5\uce58",
+					"hardwareId" : "generic_hid_device\u0000usb\\class_03&subclass_01\u0000usb\\class_03\u0000\u0000",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372561049,
+					"infDateFormatted" : "2024-10-05 00:17:29",
+					"infFileName" : "input.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+					"matchingId" : "0E68690930D46D2E4A95FF200FB5BB2AA93B2302694FFA8E2DD87BF821D75DED",
+					"oemInf" : "C:\\WINDOWS\\INF\\input.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16724485,
+					"rejectedReason" : 0,
+					"sectionName" : "HID_Inst",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\input.inf_amd64_13f4bea4a16ca4c8\\input.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"USB\\VID_1532&PID_028D&REV_0101&MI_04",
+				"USB\\VID_1532&PID_028D&MI_04"
+			],
+			"hasProblem" : false,
+			"hash" : "0E68690930D46D2E4A95FF200FB5BB2AA93B2302694FFA8E2DD87BF821D75DED",
+			"id" : "(\ud45c\uc900\uc2dc\uc2a4\ud15c\uc7a5\uce58)-USB\uc785\ub825\uc7a5\uce58",
+			"ignored" : false,
+			"installDate" : 13381392277,
+			"installDateFormatted" : "2025-01-15 05:24:37",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "USB\\VID_1532&PID_028D&MI_04\\9&113A6CD5&0&0004",
+			"instances" : 
+			[
+				"USB\\VID_1532&PID_028D&MI_04\\9&113A6CD5&0&0004"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "0074.0000.0000.018.000.000.000.000.000",
+			"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+			"name" : "USB \uc785\ub825 \uc7a5\uce58",
+			"parent" : "USB\\VID_1532&PID_028D\\8&F2CB6FA&0&18",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : 
+			[
+				"USB\\VID_1532&PID_0072&MI_00\\A&37288846&0&0000",
+				"USB\\VID_1532&PID_0072&MI_01\\A&37288846&0&0001",
+				"USB\\VID_1532&PID_0072&MI_02\\A&37288846&0&0002"
+			],
+			"class" : "USB",
+			"classGuid" : "{36FC9E60-C465-11CF-8056-444553540000}",
+			"classIconName" : "USB",
+			"compatibleIds" : 
+			[
+				"USB\\COMPAT_VID_1532&DevClass_00&SubClass_00&Prot00",
+				"USB\\COMPAT_VID_1532&DevClass_00&SubClass_00",
+				"USB\\COMPAT_VID_1532&DevClass_00",
+				"USB\\DevClass_00&SubClass_00&Prot_00",
+				"USB\\DevClass_00&SubClass_00",
+				"USB\\DevClass_00",
+				"USB\\COMPOSITE"
+			],
+			"connected" : true,
+			"containerId" : "{FE82DF31-D300-11EF-B8C1-806E6F6E6963}",
+			"devType" : 34,
+			"deviceInst" : 5,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "USB Composite Device",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{36fc9e60-c465-11cf-8056-444553540000}\\0011",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1882",
+					"fix" : false,
+					"flags" : 1318980,
+					"friendlyName" : "USB Composite Device",
+					"hardwareId" : "usb\\composite",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372561050,
+					"infDateFormatted" : "2024-10-05 00:17:30",
+					"infFileName" : "usb.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "(\ud45c\uc900 USB \ud638\uc2a4\ud2b8 \ucee8\ud2b8\ub864\ub7ec)",
+					"matchingId" : "0F251D90D24F23DB58D30C6682F34A4623969B984FF5FAE739DBD0A3D7DCE54C",
+					"oemInf" : "C:\\WINDOWS\\INF\\usb.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16719878,
+					"rejectedReason" : 0,
+					"sectionName" : "Composite.Dev",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\usb.inf_amd64_e6361bd9b1fba04a\\usb.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"USB\\VID_1532&PID_0072&REV_0200",
+				"USB\\VID_1532&PID_0072"
+			],
+			"hasProblem" : false,
+			"hash" : "0F251D90D24F23DB58D30C6682F34A4623969B984FF5FAE739DBD0A3D7DCE54C",
+			"id" : "(\ud45c\uc900USB\ud638\uc2a4\ud2b8\ucee8\ud2b8\ub864\ub7ec)-USBCompositeDevice",
+			"ignored" : false,
+			"installDate" : 13381392278,
+			"installDateFormatted" : "2025-01-15 05:24:38",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "USB\\VID_1532&PID_0072\\9&17E0ABA7&0&1",
+			"instances" : 
+			[
+				"USB\\VID_1532&PID_0072\\9&17E0ABA7&0&1"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "Port_#0001.Hub_#0005",
+			"manufacturer" : "(\ud45c\uc900 USB \ud638\uc2a4\ud2b8 \ucee8\ud2b8\ub864\ub7ec)",
+			"name" : "USB Composite Device",
+			"parent" : "USB\\VID_05E3&PID_0610\\8&F2CB6FA&0&13",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : 
+			[
+				"ACPI\\PNP0000\\4&D447ADA&0",
+				"ACPI\\PNP0200\\4&D447ADA&0",
+				"ACPI\\PNP0100\\4&D447ADA&0",
+				"ACPI\\PNP0B00\\4&D447ADA&0",
+				"ACPI\\PNP0800\\4&D447ADA&0",
+				"ACPI\\PNP0C02\\0"
+			],
+			"class" : "System",
+			"classGuid" : "{4D36E97D-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "System",
+			"compatibleIds" : 
+			[
+				"PCI\\VEN_1022&DEV_790E&REV_51",
+				"PCI\\VEN_1022&DEV_790E",
+				"PCI\\VEN_1022&CC_060100",
+				"PCI\\VEN_1022&CC_0601",
+				"PCI\\VEN_1022",
+				"PCI\\CC_060100",
+				"PCI\\CC_0601"
+			],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 152,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "PCI \ud45c\uc900 ISA \ube0c\ub9ac\uc9c0",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{4d36e97d-e325-11ce-bfc1-08002be10318}\\0033",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1150",
+					"fix" : false,
+					"flags" : 1318980,
+					"friendlyName" : "PCI \ud45c\uc900 ISA \ube0c\ub9ac\uc9c0",
+					"hardwareId" : "pci\\cc_0601",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372560146,
+					"infDateFormatted" : "2024-10-05 00:02:26",
+					"infFileName" : "machine.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+					"matchingId" : "10FC9BF1CB5C4A86026D88598D7E71966F1559A13DE9BE6F5F11E7A5D1E148C4",
+					"oemInf" : "C:\\WINDOWS\\INF\\machine.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16719878,
+					"rejectedReason" : 0,
+					"sectionName" : "MSISADRV",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\machine.inf_amd64_d807fc8146278f4c\\machine.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"PCI\\VEN_1022&DEV_790E&SUBSYS_790E1849&REV_51",
+				"PCI\\VEN_1022&DEV_790E&SUBSYS_790E1849",
+				"PCI\\VEN_1022&DEV_790E&CC_060100",
+				"PCI\\VEN_1022&DEV_790E&CC_0601"
+			],
+			"hasProblem" : false,
+			"hash" : "10FC9BF1CB5C4A86026D88598D7E71966F1559A13DE9BE6F5F11E7A5D1E148C4",
+			"id" : "(\ud45c\uc900\uc2dc\uc2a4\ud15c\uc7a5\uce58)-PCI\ud45c\uc900ISA\ube0c\ub9ac\uc9c0",
+			"ignored" : false,
+			"installDate" : 13381392270,
+			"installDateFormatted" : "2025-01-15 05:24:30",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "PCI\\VEN_1022&DEV_790E&SUBSYS_790E1849&REV_51\\3&11583659&0&A3",
+			"instances" : 
+			[
+				"PCI\\VEN_1022&DEV_790E&SUBSYS_790E1849&REV_51\\3&11583659&0&A3"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "PCI bus 0, device 20, function 3",
+			"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+			"name" : "PCI \ud45c\uc900 ISA \ube0c\ub9ac\uc9c0",
+			"parent" : "ACPI\\PNP0A08\\0",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : [],
+			"class" : "System",
+			"classGuid" : "{4D36E97D-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "System",
+			"compatibleIds" : [],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 92,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "Microsoft Windows Management Interface for ACPI",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{4d36e97d-e325-11ce-bfc1-08002be10318}\\0019",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1150",
+					"fix" : false,
+					"flags" : 1318980,
+					"friendlyName" : "Microsoft Windows Management Interface for ACPI",
+					"hardwareId" : "*pnp0c14",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372560149,
+					"infDateFormatted" : "2024-10-05 00:02:29",
+					"infFileName" : "wmiacpi.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "Microsoft",
+					"matchingId" : "12CE3292CE7BD6C4115D1810DA5C2E6AC45487806D07F793EE0EEB1306431D4E",
+					"oemInf" : "C:\\WINDOWS\\INF\\wmiacpi.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16711682,
+					"rejectedReason" : 0,
+					"sectionName" : "WMIMAP_Inst",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\wmiacpi.inf_amd64_3245a73d70e16448\\wmiacpi.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"ACPI\\VEN_PNP&DEV_0C14",
+				"ACPI\\PNP0C14",
+				"*PNP0C14"
+			],
+			"hasProblem" : false,
+			"hash" : "12CE3292CE7BD6C4115D1810DA5C2E6AC45487806D07F793EE0EEB1306431D4E",
+			"id" : "Microsoft-MicrosoftWindowsManagementInterfaceforACPI",
+			"ignored" : false,
+			"installDate" : 13381392270,
+			"installDateFormatted" : "2025-01-15 05:24:30",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "ACPI\\PNP0C14\\AOD",
+			"instances" : 
+			[
+				"ACPI\\PNP0C14\\AOD"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "",
+			"manufacturer" : "Microsoft",
+			"name" : "Microsoft Windows Management Interface for ACPI",
+			"parent" : "ACPI_HAL\\PNP0C08\\0",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : 
+			[
+				"PCI\\VEN_1002&DEV_13C0&SUBSYS_364E1849&REV_C6\\4&16012499&0&0041",
+				"PCI\\VEN_1002&DEV_1640&SUBSYS_16401002&REV_00\\4&16012499&0&0141",
+				"PCI\\VEN_1022&DEV_1649&SUBSYS_16491022&REV_00\\4&16012499&0&0241",
+				"PCI\\VEN_1022&DEV_15B6&SUBSYS_15B61849&REV_00\\4&16012499&0&0341",
+				"PCI\\VEN_1022&DEV_15B7&SUBSYS_15B61849&REV_00\\4&16012499&0&0441",
+				"PCI\\VEN_1022&DEV_15E3&SUBSYS_18971849&REV_00\\4&16012499&0&0641"
+			],
+			"class" : "System",
+			"classGuid" : "{4D36E97D-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "System",
+			"compatibleIds" : 
+			[
+				"PCI\\VEN_1022&DEV_14DD&REV_00",
+				"PCI\\VEN_1022&DEV_14DD",
+				"PCI\\VEN_1022&CC_060400",
+				"PCI\\VEN_1022&CC_0604",
+				"PCI\\VEN_1022",
+				"PCI\\CC_060400&DT_4",
+				"PCI\\CC_060400",
+				"PCI\\CC_0604&DT_4",
+				"PCI\\CC_0604"
+			],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 94,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "PCI Express \ub8e8\ud2b8 \ud3ec\ud2b8",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{4d36e97d-e325-11ce-bfc1-08002be10318}\\0030",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.2454",
+					"fix" : false,
+					"flags" : 1318980,
+					"friendlyName" : "PCI Express \ub8e8\ud2b8 \ud3ec\ud2b8",
+					"hardwareId" : "pci\\cc_0604&dt_4",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13381469917,
+					"infDateFormatted" : "2025-01-16 02:58:37",
+					"infFileName" : "pci.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+					"matchingId" : "18DEA3DDDE80780E6ED9DC3BB92381B6BBEF23773C0353CA7268DCF500A375FF",
+					"oemInf" : "C:\\WINDOWS\\INF\\pci.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16719879,
+					"rejectedReason" : 0,
+					"sectionName" : "PCI_BRIDGE",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\pci.inf_amd64_f6c005d0bddf4f3c\\pci.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"PCI\\VEN_1022&DEV_14DD&SUBSYS_14DD1022&REV_00",
+				"PCI\\VEN_1022&DEV_14DD&SUBSYS_14DD1022",
+				"PCI\\VEN_1022&DEV_14DD&CC_060400",
+				"PCI\\VEN_1022&DEV_14DD&CC_0604"
+			],
+			"hasProblem" : false,
+			"hash" : "18DEA3DDDE80780E6ED9DC3BB92381B6BBEF23773C0353CA7268DCF500A375FF",
+			"id" : "(\ud45c\uc900\uc2dc\uc2a4\ud15c\uc7a5\uce58)-PCIExpress\ub8e8\ud2b8\ud3ec\ud2b8",
+			"ignored" : false,
+			"installDate" : 13381392270,
+			"installDateFormatted" : "2025-01-15 05:24:30",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "PCI\\VEN_1022&DEV_14DD&SUBSYS_14DD1022&REV_00\\3&11583659&0&41",
+			"instances" : 
+			[
+				"PCI\\VEN_1022&DEV_14DD&SUBSYS_14DD1022&REV_00\\3&11583659&0&41",
+				"PCI\\VEN_1022&DEV_14DD&SUBSYS_14DD1022&REV_00\\3&11583659&0&43"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "PCI bus 0, device 8, function 1",
+			"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+			"name" : "PCI Express \ub8e8\ud2b8 \ud3ec\ud2b8",
+			"parent" : "ACPI\\PNP0A08\\0",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : [],
+			"class" : "HIDClass",
+			"classGuid" : "{745A17A0-74D3-11D0-B6FE-00A0C90F57DA}",
+			"classIconName" : "USB",
+			"compatibleIds" : [],
+			"connected" : true,
+			"containerId" : "{FE82DF26-D300-11EF-B8C1-806E6F6E6963}",
+			"devType" : 34,
+			"deviceInst" : 103,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "HID \uaddc\uaca9 \uc0ac\uc6a9\uc790 \ucee8\ud2b8\ub864 \uc7a5\uce58",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}\\0010",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1",
+					"fix" : false,
+					"flags" : 1318980,
+					"friendlyName" : "HID \uaddc\uaca9 \uc0ac\uc6a9\uc790 \ucee8\ud2b8\ub864 \uc7a5\uce58",
+					"hardwareId" : "hid_device_up:000c_u:0001",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13356429724,
+					"infDateFormatted" : "2024-04-01 07:22:04",
+					"infFileName" : "hidserv.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "Microsoft",
+					"matchingId" : "21B9A5F8995AF69D1E36CE9F0A09127FC3F00D355C01E4C8821E33BFDE3126D0",
+					"oemInf" : "C:\\WINDOWS\\INF\\hidserv.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16711684,
+					"rejectedReason" : 0,
+					"sectionName" : "HIDSystemConsumerDevice",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\hidserv.inf_amd64_3111b4bfb553788d\\hidserv.inf",
+					"vulnerable" : false
+				},
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "HID \uc900\uc218 \uc7a5\uce58",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}\\0010",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1882",
+					"fix" : false,
+					"flags" : 3153988,
+					"friendlyName" : "HID \uaddc\uaca9 \uc0ac\uc6a9\uc790 \ucee8\ud2b8\ub864 \uc7a5\uce58",
+					"hardwareId" : "hid_device\u0000\u0000",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372561049,
+					"infDateFormatted" : "2024-10-05 00:17:29",
+					"infFileName" : "input.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+					"matchingId" : "21B9A5F8995AF69D1E36CE9F0A09127FC3F00D355C01E4C8821E33BFDE3126D0",
+					"oemInf" : "C:\\WINDOWS\\INF\\input.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16715781,
+					"rejectedReason" : 0,
+					"sectionName" : "HID_Raw_Inst",
+					"selectionOrder" : 1,
+					"state" : 1,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\input.inf_amd64_13f4bea4a16ca4c8\\input.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"HID\\VID_1532&PID_028D&REV_0101&MI_01&Col02",
+				"HID\\VID_1532&PID_028D&MI_01&Col02",
+				"HID\\VID_1532&UP:000C_U:0001",
+				"HID_DEVICE_SYSTEM_CONSUMER",
+				"HID_DEVICE_UP:000C_U:0001",
+				"HID_DEVICE"
+			],
+			"hasProblem" : false,
+			"hash" : "21B9A5F8995AF69D1E36CE9F0A09127FC3F00D355C01E4C8821E33BFDE3126D0",
+			"id" : "Microsoft-HID\uaddc\uaca9\uc0ac\uc6a9\uc790\ucee8\ud2b8\ub864\uc7a5\uce58",
+			"ignored" : false,
+			"installDate" : 13381392277,
+			"installDateFormatted" : "2025-01-15 05:24:37",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "HID\\VID_1532&PID_028D&MI_01&COL02\\A&353BE04F&0&0001",
+			"instances" : 
+			[
+				"HID\\VID_1532&PID_028D&MI_01&COL02\\A&353BE04F&0&0001"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "",
+			"manufacturer" : "Microsoft",
+			"name" : "HID \uaddc\uaca9 \uc0ac\uc6a9\uc790 \ucee8\ud2b8\ub864 \uc7a5\uce58",
+			"parent" : "USB\\VID_1532&PID_028D&MI_01\\9&113A6CD5&0&0001",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : 
+			[
+				"USB\\ROOT_HUB30\\5&A77F9B7&0&0"
+			],
+			"class" : "USB",
+			"classGuid" : "{36FC9E60-C465-11CF-8056-444553540000}",
+			"classIconName" : "USB",
+			"compatibleIds" : 
+			[
+				"PCI\\VEN_1022&DEV_15B6&REV_00",
+				"PCI\\VEN_1022&DEV_15B6",
+				"PCI\\VEN_1022&CC_0C0330",
+				"PCI\\VEN_1022&CC_0C03",
+				"PCI\\VEN_1022",
+				"PCI\\CC_0C0330&DT_0",
+				"PCI\\CC_0C0330",
+				"PCI\\CC_0C03&DT_0",
+				"PCI\\CC_0C03"
+			],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 45,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "USB xHCI \uaddc\uaca9 \ud638\uc2a4\ud2b8 \ucee8\ud2b8\ub864\ub7ec",
+					"driverDate" : 13376102400,
+					"driverDateFormatted" : "2024-11-15 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{36fc9e60-c465-11cf-8056-444553540000}\\0000",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.2454",
+					"fix" : false,
+					"flags" : 1318980,
+					"friendlyName" : "AMD USB 3.10 \ud655\uc7a5 \uac00\ub2a5\ud55c \ud638\uc2a4\ud2b8 \ucee8\ud2b8\ub864\ub7ec - 1.20(Microsoft)",
+					"hardwareId" : "pci\\cc_0c0330",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13381469917,
+					"infDateFormatted" : "2025-01-16 02:58:37",
+					"infFileName" : "usbxhci.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "\uc77c\ubc18 USB xHCI \ud638\uc2a4\ud2b8 \ucee8\ud2b8\ub864\ub7ec",
+					"matchingId" : "2207E3BA4C203D1E8A6D9D974C9D9F45E02A530E95DED21F948D1422D6E17CA4",
+					"oemInf" : "C:\\WINDOWS\\INF\\usbxhci.inf",
+					"providerName" : "Microsoft",
+					"rank" : 8396806,
+					"rejectedReason" : 0,
+					"sectionName" : "Generic.Install",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\usbxhci.inf_amd64_fc8670ce4b0a8dbf\\usbxhci.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"PCI\\VEN_1022&DEV_15B6&SUBSYS_15B61849&REV_00",
+				"PCI\\VEN_1022&DEV_15B6&SUBSYS_15B61849",
+				"PCI\\VEN_1022&DEV_15B6&CC_0C0330",
+				"PCI\\VEN_1022&DEV_15B6&CC_0C03"
+			],
+			"hasProblem" : false,
+			"hash" : "2207E3BA4C203D1E8A6D9D974C9D9F45E02A530E95DED21F948D1422D6E17CA4",
+			"id" : "\uc77c\ubc18USBxHCI\ud638\uc2a4\ud2b8\ucee8\ud2b8\ub864\ub7ec-AMDUSB3.10\ud655\uc7a5\uac00\ub2a5\ud55c\ud638\uc2a4\ud2b8\ucee8\ud2b8\ub864\ub7ec-1.20(Microsoft)",
+			"ignored" : false,
+			"installDate" : 13381392270,
+			"installDateFormatted" : "2025-01-15 05:24:30",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "PCI\\VEN_1022&DEV_15B6&SUBSYS_15B61849&REV_00\\4&16012499&0&0341",
+			"instances" : 
+			[
+				"PCI\\VEN_1022&DEV_15B6&SUBSYS_15B61849&REV_00\\4&16012499&0&0341"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "PCI bus 119, device 0, function 3",
+			"manufacturer" : "\uc77c\ubc18 USB xHCI \ud638\uc2a4\ud2b8 \ucee8\ud2b8\ub864\ub7ec",
+			"name" : "AMD USB 3.10 \ud655\uc7a5 \uac00\ub2a5\ud55c \ud638\uc2a4\ud2b8 \ucee8\ud2b8\ub864\ub7ec - 1.20(Microsoft)",
+			"parent" : "PCI\\VEN_1022&DEV_14DD&SUBSYS_14DD1022&REV_00\\3&11583659&0&41",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : [],
+			"class" : "Keyboard",
+			"classGuid" : "{4D36E96B-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "Keyboard",
+			"compatibleIds" : [],
+			"connected" : true,
+			"containerId" : "{FE82DF26-D300-11EF-B8C1-806E6F6E6963}",
+			"devType" : 34,
+			"deviceInst" : 70,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "HID \uc900\uc218 \uc7a5\uce58",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{4d36e96b-e325-11ce-bfc1-08002be10318}\\0001",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1882",
+					"fix" : false,
+					"flags" : 3153988,
+					"friendlyName" : "Razer BlackWidow V4 Pro",
+					"hardwareId" : "hid_device\u0000\u0000",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372561049,
+					"infDateFormatted" : "2024-10-05 00:17:29",
+					"infFileName" : "input.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+					"matchingId" : "22945520D2D00C52D74B096FE832B9F6AE192F11B0C32587CF5B1255E8B0C0B0",
+					"oemInf" : "C:\\WINDOWS\\INF\\input.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16715781,
+					"rejectedReason" : 0,
+					"sectionName" : "HID_Raw_Inst",
+					"selectionOrder" : 3,
+					"state" : 1,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\input.inf_amd64_13f4bea4a16ca4c8\\input.inf",
+					"vulnerable" : false
+				},
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "HID \ud0a4\ubcf4\ub4dc \uc7a5\uce58",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{4d36e96b-e325-11ce-bfc1-08002be10318}\\0001",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1882",
+					"fix" : false,
+					"flags" : 1056832,
+					"friendlyName" : "Razer BlackWidow V4 Pro",
+					"hardwareId" : "hid_device_system_keyboard\u0000\u0000",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372561049,
+					"infDateFormatted" : "2024-10-05 00:17:29",
+					"infFileName" : "keyboard.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "(\ud45c\uc900 \ud0a4\ubcf4\ub4dc)",
+					"matchingId" : "22945520D2D00C52D74B096FE832B9F6AE192F11B0C32587CF5B1255E8B0C0B0",
+					"oemInf" : "C:\\WINDOWS\\INF\\keyboard.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16715779,
+					"rejectedReason" : 0,
+					"sectionName" : "HID_Keyboard_Inst",
+					"selectionOrder" : 2,
+					"state" : 1,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\keyboard.inf_amd64_c56788078819b951\\keyboard.inf",
+					"vulnerable" : false
+				},
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "HID Keyboard Device",
+					"driverDate" : 13303958400,
+					"driverDateFormatted" : "2022-08-03 00:00:00",
+					"driverFiles" : 
+					[
+						"C:\\WINDOWS\\system32\\DRIVERS\\RzDev_028d.sys",
+						"C:\\WINDOWS\\system32\\DRIVERS\\kbdhid.sys",
+						"C:\\WINDOWS\\system32\\DRIVERS\\kbdclass.sys"
+					],
+					"driverKey" : "{4d36e96b-e325-11ce-bfc1-08002be10318}\\0001",
+					"driverType" : 2,
+					"driverVersion" : "10.0.15063.0",
+					"fix" : false,
+					"flags" : 8256,
+					"friendlyName" : "Razer BlackWidow V4 Pro",
+					"hardwareId" : "hid\\vid_1532&pid_028d&mi_01&col01",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : false,
+					"infDate" : 13305294452,
+					"infDateFormatted" : "2022-08-18 11:07:32",
+					"infFileName" : "rzdevu_028d_kbd.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "Razer Inc",
+					"matchingId" : "22945520D2D00C52D74B096FE832B9F6AE192F11B0C32587CF5B1255E8B0C0B0",
+					"oemInf" : "C:\\WINDOWS\\INF\\oem1.inf",
+					"providerName" : "Razer Inc",
+					"rank" : 16711681,
+					"rejectedReason" : 0,
+					"sectionName" : "RzDev_Device",
+					"selectionOrder" : 1,
+					"state" : 1,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\rzdevu_028d_kbd.inf_amd64_2b0a90ecc61edbc1\\rzdevu_028d_kbd.inf",
+					"vulnerable" : false
+				},
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "Razer BlackWidow V4 Pro",
+					"driverDate" : 13357612800,
+					"driverDateFormatted" : "2024-04-15 00:00:00",
+					"driverFiles" : 
+					[
+						"C:\\WINDOWS\\system32\\DRIVERS\\RzDev_028d.sys",
+						"C:\\WINDOWS\\system32\\DRIVERS\\kbdhid.sys",
+						"C:\\WINDOWS\\system32\\DRIVERS\\kbdclass.sys"
+					],
+					"driverKey" : "{4d36e96b-e325-11ce-bfc1-08002be10318}\\0001",
+					"driverType" : 2,
+					"driverVersion" : "10.0.15063.0",
+					"fix" : false,
+					"flags" : 270400,
+					"friendlyName" : "Razer BlackWidow V4 Pro",
+					"hardwareId" : "hid\\vid_1532&pid_028d&mi_01&col01",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : false,
+					"infDate" : 13381390923,
+					"infDateFormatted" : "2025-01-15 05:02:03",
+					"infFileName" : "rzdevu_028d_kbd.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "Razer Inc",
+					"matchingId" : "22945520D2D00C52D74B096FE832B9F6AE192F11B0C32587CF5B1255E8B0C0B0",
+					"oemInf" : "C:\\WINDOWS\\INF\\oem29.inf",
+					"providerName" : "Razer Inc",
+					"rank" : 16711681,
+					"rejectedReason" : 0,
+					"sectionName" : "RzDev_Device",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\rzdevu_028d_kbd.inf_amd64_f892feb796e28dfb\\rzdevu_028d_kbd.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"HID\\VID_1532&PID_028D&REV_0101&MI_01&Col01",
+				"HID\\VID_1532&PID_028D&MI_01&Col01",
+				"HID\\VID_1532&UP:0001_U:0006",
+				"HID_DEVICE_SYSTEM_KEYBOARD",
+				"HID_DEVICE_UP:0001_U:0006",
+				"HID_DEVICE"
+			],
+			"hasProblem" : false,
+			"hash" : "22945520D2D00C52D74B096FE832B9F6AE192F11B0C32587CF5B1255E8B0C0B0",
+			"id" : "RazerInc-RazerBlackWidowV4Pro",
+			"ignored" : false,
+			"installDate" : 13381392277,
+			"installDateFormatted" : "2025-01-15 05:24:37",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "HID\\VID_1532&PID_028D&MI_01&COL01\\A&353BE04F&0&0000",
+			"instances" : 
+			[
+				"HID\\VID_1532&PID_028D&MI_01&COL01\\A&353BE04F&0&0000"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "",
+			"manufacturer" : "Razer Inc",
+			"name" : "Razer BlackWidow V4 Pro",
+			"parent" : "USB\\VID_1532&PID_028D&MI_01\\9&113A6CD5&0&0001",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : 
+			[
+				"HID\\VID_1532&PID_028D&MI_03\\A&5B4C7C5&0&0000"
+			],
+			"class" : "HIDClass",
+			"classGuid" : "{745A17A0-74D3-11D0-B6FE-00A0C90F57DA}",
+			"classIconName" : "USB",
+			"compatibleIds" : 
+			[
+				"USB\\COMPAT_VID_1532&Class_03&SubClass_00&Prot_00",
+				"USB\\COMPAT_VID_1532&Class_03&SubClass_00",
+				"USB\\COMPAT_VID_1532&Class_03",
+				"USB\\Class_03&SubClass_00&Prot_00",
+				"USB\\Class_03&SubClass_00",
+				"USB\\Class_03"
+			],
+			"connected" : true,
+			"containerId" : "{FE82DF26-D300-11EF-B8C1-806E6F6E6963}",
+			"devType" : 34,
+			"deviceInst" : 107,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "USB \uc785\ub825 \uc7a5\uce58",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}\\0005",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1882",
+					"fix" : false,
+					"flags" : 3416132,
+					"friendlyName" : "USB \uc785\ub825 \uc7a5\uce58",
+					"hardwareId" : "generic_hid_device\u0000usb\\class_03&subclass_01\u0000usb\\class_03\u0000\u0000",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372561049,
+					"infDateFormatted" : "2024-10-05 00:17:29",
+					"infFileName" : "input.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+					"matchingId" : "256E716754D87C114B349E8C9950C56B92E25C941325CEF139A3BF3E69B17FA3",
+					"oemInf" : "C:\\WINDOWS\\INF\\input.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16724485,
+					"rejectedReason" : 0,
+					"sectionName" : "HID_Inst",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\input.inf_amd64_13f4bea4a16ca4c8\\input.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"USB\\VID_1532&PID_028D&REV_0101&MI_03",
+				"USB\\VID_1532&PID_028D&MI_03"
+			],
+			"hasProblem" : false,
+			"hash" : "256E716754D87C114B349E8C9950C56B92E25C941325CEF139A3BF3E69B17FA3",
+			"id" : "(\ud45c\uc900\uc2dc\uc2a4\ud15c\uc7a5\uce58)-USB\uc785\ub825\uc7a5\uce58",
+			"ignored" : false,
+			"installDate" : 13381392277,
+			"installDateFormatted" : "2025-01-15 05:24:37",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "USB\\VID_1532&PID_028D&MI_03\\9&113A6CD5&0&0003",
+			"instances" : 
+			[
+				"USB\\VID_1532&PID_028D&MI_03\\9&113A6CD5&0&0003"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "0074.0000.0000.018.000.000.000.000.000",
+			"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+			"name" : "USB \uc785\ub825 \uc7a5\uce58",
+			"parent" : "USB\\VID_1532&PID_028D\\8&F2CB6FA&0&18",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : 
+			[
+				"HDAUDIO\\FUNC_01&VEN_10DE&DEV_00A5&SUBSYS_1458413B&REV_1001\\5&341F8735&0&0001"
+			],
+			"class" : "System",
+			"classGuid" : "{4D36E97D-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "System",
+			"compatibleIds" : 
+			[
+				"PCI\\VEN_10DE&DEV_22BC&REV_A1",
+				"PCI\\VEN_10DE&DEV_22BC",
+				"PCI\\VEN_10DE&CC_040300",
+				"PCI\\VEN_10DE&CC_0403",
+				"PCI\\VEN_10DE",
+				"PCI\\CC_040300&DT_0",
+				"PCI\\CC_040300",
+				"PCI\\CC_0403&DT_0",
+				"PCI\\CC_0403"
+			],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 48,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "High Definition Audio \ucee8\ud2b8\ub864\ub7ec",
+					"driverDate" : 13371868800,
+					"driverDateFormatted" : "2024-09-27 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{4d36e97d-e325-11ce-bfc1-08002be10318}\\0052",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1882",
+					"fix" : false,
+					"flags" : 1318980,
+					"friendlyName" : "High Definition Audio \ucee8\ud2b8\ub864\ub7ec",
+					"hardwareId" : "pci\\cc_0403",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372561049,
+					"infDateFormatted" : "2024-10-05 00:17:29",
+					"infFileName" : "hdaudbus.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "Microsoft",
+					"matchingId" : "287F80AC45E3D0E81CEF3E4B0B411F99766FD600A5A8AB61DD2159D69BBE9252",
+					"oemInf" : "C:\\WINDOWS\\INF\\hdaudbus.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16719880,
+					"rejectedReason" : 0,
+					"sectionName" : "HDAudio_Device",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\hdaudbus.inf_amd64_d886b1bec10cb155\\hdaudbus.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"PCI\\VEN_10DE&DEV_22BC&SUBSYS_413B1458&REV_A1",
+				"PCI\\VEN_10DE&DEV_22BC&SUBSYS_413B1458",
+				"PCI\\VEN_10DE&DEV_22BC&CC_040300",
+				"PCI\\VEN_10DE&DEV_22BC&CC_0403"
+			],
+			"hasProblem" : false,
+			"hash" : "287F80AC45E3D0E81CEF3E4B0B411F99766FD600A5A8AB61DD2159D69BBE9252",
+			"id" : "Microsoft-HighDefinitionAudio\ucee8\ud2b8\ub864\ub7ec",
+			"ignored" : false,
+			"installDate" : 13381392270,
+			"installDateFormatted" : "2025-01-15 05:24:30",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "PCI\\VEN_10DE&DEV_22BC&SUBSYS_413B1458&REV_A1\\4&D0BDF66&0&0109",
+			"instances" : 
+			[
+				"PCI\\VEN_10DE&DEV_22BC&SUBSYS_413B1458&REV_A1\\4&D0BDF66&0&0109"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "PCI bus 1, device 0, function 1",
+			"manufacturer" : "Microsoft",
+			"name" : "High Definition Audio \ucee8\ud2b8\ub864\ub7ec",
+			"parent" : "PCI\\VEN_1022&DEV_14DB&SUBSYS_14531022&REV_00\\3&11583659&0&09",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : 
+			[
+				"PCI\\VEN_1022&DEV_43F5&SUBSYS_33281B21&REV_01\\5&2B8B9E2F&0&000011",
+				"PCI\\VEN_1022&DEV_43F5&SUBSYS_33281B21&REV_01\\5&2B8B9E2F&0&100011",
+				"PCI\\VEN_1022&DEV_43F5&SUBSYS_33281B21&REV_01\\5&2B8B9E2F&0&180011",
+				"PCI\\VEN_1022&DEV_43F5&SUBSYS_33281B21&REV_01\\5&2B8B9E2F&0&200011",
+				"PCI\\VEN_1022&DEV_43F5&SUBSYS_33281B21&REV_01\\5&2B8B9E2F&0&280011",
+				"PCI\\VEN_1022&DEV_43F5&SUBSYS_33281B21&REV_01\\5&2B8B9E2F&0&300011",
+				"PCI\\VEN_1022&DEV_43F5&SUBSYS_33281B21&REV_01\\5&2B8B9E2F&0&400011",
+				"PCI\\VEN_1022&DEV_43F5&SUBSYS_33281B21&REV_01\\5&2B8B9E2F&0&600011",
+				"PCI\\VEN_1022&DEV_43F5&SUBSYS_33281B21&REV_01\\5&2B8B9E2F&0&680011"
+			],
+			"class" : "System",
+			"classGuid" : "{4D36E97D-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "System",
+			"compatibleIds" : 
+			[
+				"PCI\\VEN_1022&DEV_43F4&REV_01",
+				"PCI\\VEN_1022&DEV_43F4",
+				"PCI\\VEN_1022&CC_060400",
+				"PCI\\VEN_1022&CC_0604",
+				"PCI\\VEN_1022",
+				"PCI\\CC_060400&DT_5",
+				"PCI\\CC_060400",
+				"PCI\\CC_0604&DT_5",
+				"PCI\\CC_0604"
+			],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 88,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "PCI Express \uc5c5\uc2a4\ud2b8\ub9bc \uc2a4\uc704\uce58 \ud3ec\ud2b8",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{4d36e97d-e325-11ce-bfc1-08002be10318}\\0053",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.2454",
+					"fix" : false,
+					"flags" : 1318980,
+					"friendlyName" : "PCI Express \uc5c5\uc2a4\ud2b8\ub9bc \uc2a4\uc704\uce58 \ud3ec\ud2b8",
+					"hardwareId" : "pci\\cc_0604&dt_5",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13381469917,
+					"infDateFormatted" : "2025-01-16 02:58:37",
+					"infFileName" : "pci.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+					"matchingId" : "2B68F1973C81CE32031D962A952345F08E6AEC9DFBC41ED5B486D5C93B33F5B0",
+					"oemInf" : "C:\\WINDOWS\\INF\\pci.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16719879,
+					"rejectedReason" : 0,
+					"sectionName" : "PCI_BRIDGE",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\pci.inf_amd64_f6c005d0bddf4f3c\\pci.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"PCI\\VEN_1022&DEV_43F4&SUBSYS_33281B21&REV_01",
+				"PCI\\VEN_1022&DEV_43F4&SUBSYS_33281B21",
+				"PCI\\VEN_1022&DEV_43F4&CC_060400",
+				"PCI\\VEN_1022&DEV_43F4&CC_0604"
+			],
+			"hasProblem" : false,
+			"hash" : "2B68F1973C81CE32031D962A952345F08E6AEC9DFBC41ED5B486D5C93B33F5B0",
+			"id" : "(\ud45c\uc900\uc2dc\uc2a4\ud15c\uc7a5\uce58)-PCIExpress\uc5c5\uc2a4\ud2b8\ub9bc\uc2a4\uc704\uce58\ud3ec\ud2b8",
+			"ignored" : false,
+			"installDate" : 13381392270,
+			"installDateFormatted" : "2025-01-15 05:24:30",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "PCI\\VEN_1022&DEV_43F4&SUBSYS_33281B21&REV_01\\4&2C14E217&0&0011",
+			"instances" : 
+			[
+				"PCI\\VEN_1022&DEV_43F4&SUBSYS_33281B21&REV_01\\4&2C14E217&0&0011"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "PCI bus 107, device 0, function 0",
+			"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+			"name" : "PCI Express \uc5c5\uc2a4\ud2b8\ub9bc \uc2a4\uc704\uce58 \ud3ec\ud2b8",
+			"parent" : "PCI\\VEN_1022&DEV_14DB&SUBSYS_14531022&REV_00\\3&11583659&0&11",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : [],
+			"class" : "HDC",
+			"classGuid" : "{4D36E96A-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "Storage",
+			"compatibleIds" : 
+			[
+				"PCI\\VEN_1022&DEV_43F6&REV_01",
+				"PCI\\VEN_1022&DEV_43F6",
+				"PCI\\VEN_1022&CC_010601",
+				"PCI\\VEN_1022&CC_0106",
+				"PCI\\VEN_1022",
+				"PCI\\CC_010601&DT_1",
+				"PCI\\CC_010601",
+				"PCI\\CC_0106&DT_1",
+				"PCI\\CC_0106"
+			],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 33,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "\ud45c\uc900 SATA AHCI \ucee8\ud2b8\ub864\ub7ec",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{4d36e96a-e325-11ce-bfc1-08002be10318}\\0000",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1150",
+					"fix" : false,
+					"flags" : 1318980,
+					"friendlyName" : "\ud45c\uc900 SATA AHCI \ucee8\ud2b8\ub864\ub7ec",
+					"hardwareId" : "pci\\cc_010601",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372560147,
+					"infDateFormatted" : "2024-10-05 00:02:27",
+					"infFileName" : "mshdc.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "\ud45c\uc900 SATA AHCI \ucee8\ud2b8\ub864\ub7ec",
+					"matchingId" : "31353F58CF24BFF452B59076B010B861F449B0B7AB63D5024447FA6F66FDBF39",
+					"oemInf" : "C:\\WINDOWS\\INF\\mshdc.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16719878,
+					"rejectedReason" : 0,
+					"sectionName" : "msahci_Inst",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\mshdc.inf_amd64_f46cfa9aaf1c025c\\mshdc.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"PCI\\VEN_1022&DEV_43F6&SUBSYS_10621B21&REV_01",
+				"PCI\\VEN_1022&DEV_43F6&SUBSYS_10621B21",
+				"PCI\\VEN_1022&DEV_43F6&CC_010601",
+				"PCI\\VEN_1022&DEV_43F6&CC_0106"
+			],
+			"hasProblem" : false,
+			"hash" : "31353F58CF24BFF452B59076B010B861F449B0B7AB63D5024447FA6F66FDBF39",
+			"id" : "\ud45c\uc900SATAAHCI\ucee8\ud2b8\ub864\ub7ec-\ud45c\uc900SATAAHCI\ucee8\ud2b8\ub864\ub7ec",
+			"ignored" : false,
+			"installDate" : 13381392270,
+			"installDateFormatted" : "2025-01-15 05:24:30",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "PCI\\VEN_1022&DEV_43F6&SUBSYS_10621B21&REV_01\\6&3AE87E62&0&00680011",
+			"instances" : 
+			[
+				"PCI\\VEN_1022&DEV_43F6&SUBSYS_10621B21&REV_01\\6&3AE87E62&0&00680011"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "PCI bus 117, device 0, function 0",
+			"manufacturer" : "\ud45c\uc900 SATA AHCI \ucee8\ud2b8\ub864\ub7ec",
+			"name" : "\ud45c\uc900 SATA AHCI \ucee8\ud2b8\ub864\ub7ec",
+			"parent" : "PCI\\VEN_1022&DEV_43F5&SUBSYS_33281B21&REV_01\\5&2B8B9E2F&0&680011",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : [],
+			"class" : "System",
+			"classGuid" : "{4D36E97D-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "System",
+			"compatibleIds" : 
+			[
+				"PCI\\VEN_1022&CC_060000",
+				"PCI\\VEN_1022&CC_0600",
+				"PCI\\VEN_1022",
+				"PCI\\CC_060000",
+				"PCI\\CC_0600"
+			],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 130,
+			"driversList" : [],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"PCI\\VEN_1022&DEV_14E5&SUBSYS_00000000&REV_00",
+				"PCI\\VEN_1022&DEV_14E5&SUBSYS_00000000",
+				"PCI\\VEN_1022&DEV_14E5&REV_00",
+				"PCI\\VEN_1022&DEV_14E5",
+				"PCI\\VEN_1022&DEV_14E5&CC_060000",
+				"PCI\\VEN_1022&DEV_14E5&CC_0600"
+			],
+			"hasProblem" : false,
+			"hash" : "43BA247974B6144F1B6AEF976D3B150845FDF477D88751798B3C69EBB7AA114C",
+			"id" : "(\ud45c\uc900\uc2dc\uc2a4\ud15c\uc7a5\uce58)-PCI\ud45c\uc900\ud638\uc2a4\ud2b8CPU\ube0c\ub9ac\uc9c0",
+			"ignored" : false,
+			"installDate" : 13381392270,
+			"installDateFormatted" : "2025-01-15 05:24:30",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "PCI\\VEN_1022&DEV_14E5&SUBSYS_00000000&REV_00\\3&11583659&0&C5",
+			"instances" : 
+			[
+				"PCI\\VEN_1022&DEV_14E5&SUBSYS_00000000&REV_00\\3&11583659&0&C5"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "PCI bus 0, device 24, function 5",
+			"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+			"name" : "PCI \ud45c\uc900 \ud638\uc2a4\ud2b8 CPU \ube0c\ub9ac\uc9c0",
+			"parent" : "ACPI\\PNP0A08\\0",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 0
+		},
+		{
+			"childrenIds" : 
+			[
+				"UEFI\\RES_{00000000-0000-0000-0000-000000000000}\\0"
+			],
+			"class" : "System",
+			"classGuid" : "{4D36E97D-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "System",
+			"compatibleIds" : [],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 104,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "Microsoft UEFI \uaddc\uaca9 \uc2dc\uc2a4\ud15c",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{4d36e97d-e325-11ce-bfc1-08002be10318}\\0008",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1150",
+					"fix" : false,
+					"flags" : 1318980,
+					"friendlyName" : "Microsoft UEFI \uaddc\uaca9 \uc2dc\uc2a4\ud15c",
+					"hardwareId" : "acpi_hal\\uefi",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372560148,
+					"infDateFormatted" : "2024-10-05 00:02:28",
+					"infFileName" : "uefi.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "Microsoft",
+					"matchingId" : "468BBA25CBB1BE9053F83BAF4271F7B9D252DB6F54581A6A12BC5514EFFA5915",
+					"oemInf" : "C:\\WINDOWS\\INF\\uefi.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16711680,
+					"rejectedReason" : 0,
+					"sectionName" : "UEFI_Inst",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\uefi.inf_amd64_980ddb5245bbf384\\uefi.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"ACPI_HAL\\UEFI"
+			],
+			"hasProblem" : false,
+			"hash" : "468BBA25CBB1BE9053F83BAF4271F7B9D252DB6F54581A6A12BC5514EFFA5915",
+			"id" : "Microsoft-MicrosoftUEFI\uaddc\uaca9\uc2dc\uc2a4\ud15c",
+			"ignored" : false,
+			"installDate" : 13381392269,
+			"installDateFormatted" : "2025-01-15 05:24:29",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "ACPI_HAL\\UEFI\\0",
+			"instances" : 
+			[
+				"ACPI_HAL\\UEFI\\0"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "",
+			"manufacturer" : "Microsoft",
+			"name" : "Microsoft UEFI \uaddc\uaca9 \uc2dc\uc2a4\ud15c",
+			"parent" : "ROOT\\ACPI_HAL\\0000",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : 
+			[
+				"HID\\VID_26CE&PID_01A2\\7&113D5874&0&0000"
+			],
+			"class" : "HIDClass",
+			"classGuid" : "{745A17A0-74D3-11D0-B6FE-00A0C90F57DA}",
+			"classIconName" : "USB",
+			"compatibleIds" : 
+			[
+				"USB\\COMPAT_VID_26CE&Class_03&SubClass_00&Prot_00",
+				"USB\\COMPAT_VID_26CE&Class_03&SubClass_00",
+				"USB\\COMPAT_VID_26CE&Class_03",
+				"USB\\Class_03&SubClass_00&Prot_00",
+				"USB\\Class_03&SubClass_00",
+				"USB\\Class_03"
+			],
+			"connected" : true,
+			"containerId" : "{51889F4F-56F0-567B-B13B-CBA74AB96373}",
+			"devType" : 34,
+			"deviceInst" : 177,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "USB \uc785\ub825 \uc7a5\uce58",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}\\0000",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1882",
+					"fix" : false,
+					"flags" : 3416132,
+					"friendlyName" : "USB \uc785\ub825 \uc7a5\uce58",
+					"hardwareId" : "generic_hid_device\u0000usb\\class_03&subclass_01\u0000usb\\class_03\u0000\u0000",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372561049,
+					"infDateFormatted" : "2024-10-05 00:17:29",
+					"infFileName" : "input.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+					"matchingId" : "46E7946EEDFC8BB441A927CE421F0F3474DB5CD75CE1E665F03D36F4F8EDC69D",
+					"oemInf" : "C:\\WINDOWS\\INF\\input.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16724485,
+					"rejectedReason" : 0,
+					"sectionName" : "HID_Inst",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\input.inf_amd64_13f4bea4a16ca4c8\\input.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"USB\\VID_26CE&PID_01A2&REV_0000",
+				"USB\\VID_26CE&PID_01A2"
+			],
+			"hasProblem" : false,
+			"hash" : "46E7946EEDFC8BB441A927CE421F0F3474DB5CD75CE1E665F03D36F4F8EDC69D",
+			"id" : "(\ud45c\uc900\uc2dc\uc2a4\ud15c\uc7a5\uce58)-USB\uc785\ub825\uc7a5\uce58",
+			"ignored" : false,
+			"installDate" : 13381392277,
+			"installDateFormatted" : "2025-01-15 05:24:37",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "USB\\VID_26CE&PID_01A2\\A02019100900",
+			"instances" : 
+			[
+				"USB\\VID_26CE&PID_01A2\\A02019100900"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "Port_#0001.Hub_#0001",
+			"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+			"name" : "USB \uc785\ub825 \uc7a5\uce58",
+			"parent" : "USB\\ROOT_HUB30\\5&7D6F9A1&0&0",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : [],
+			"class" : "USB",
+			"classGuid" : "{36FC9E60-C465-11CF-8056-444553540000}",
+			"classIconName" : "USB",
+			"compatibleIds" : [],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 29,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "USB \ub8e8\ud2b8 \ud5c8\ube0c(USB 3.0)",
+					"driverDate" : 13371868800,
+					"driverDateFormatted" : "2024-09-27 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{36fc9e60-c465-11cf-8056-444553540000}\\0004",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1882",
+					"fix" : false,
+					"flags" : 1318980,
+					"friendlyName" : "USB \ub8e8\ud2b8 \ud5c8\ube0c(USB 3.0)",
+					"hardwareId" : "usb\\root_hub30",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372561050,
+					"infDateFormatted" : "2024-10-05 00:17:30",
+					"infFileName" : "usbhub3.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "(\ud45c\uc900 USB \ud5c8\ube0c)",
+					"matchingId" : "48F327F2E404151A82251837794B2EBB3F44B4A1734AD48180DB4706F7171604",
+					"oemInf" : "C:\\WINDOWS\\INF\\usbhub3.inf",
+					"providerName" : "Microsoft",
+					"rank" : 8388610,
+					"rejectedReason" : 0,
+					"sectionName" : "Generic.Install",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\usbhub3.inf_amd64_d8c58aa3cc847250\\usbhub3.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"USB\\ROOT_HUB30&VID1022&PID15B6&REV0000",
+				"USB\\ROOT_HUB30&VID1022&PID15B6",
+				"USB\\ROOT_HUB30"
+			],
+			"hasProblem" : false,
+			"hash" : "48F327F2E404151A82251837794B2EBB3F44B4A1734AD48180DB4706F7171604",
+			"id" : "(\ud45c\uc900USB\ud5c8\ube0c)-USB\ub8e8\ud2b8\ud5c8\ube0c(USB3.0)",
+			"ignored" : false,
+			"installDate" : 13381392271,
+			"installDateFormatted" : "2025-01-15 05:24:31",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "USB\\ROOT_HUB30\\5&A77F9B7&0&0",
+			"instances" : 
+			[
+				"USB\\ROOT_HUB30\\5&A77F9B7&0&0"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "",
+			"manufacturer" : "(\ud45c\uc900 USB \ud5c8\ube0c)",
+			"name" : "USB \ub8e8\ud2b8 \ud5c8\ube0c(USB 3.0)",
+			"parent" : "PCI\\VEN_1022&DEV_15B6&SUBSYS_15B61849&REV_00\\4&16012499&0&0341",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : [],
+			"class" : "MEDIA",
+			"classGuid" : "{4D36E96C-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "Audio",
+			"compatibleIds" : [],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 187,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "Voicemod Virtual Audio Device (WDM)",
+					"driverDate" : 13364265600,
+					"driverDateFormatted" : "2024-07-01 00:00:00",
+					"driverFiles" : 
+					[
+						"C:\\WINDOWS\\system32\\drivers\\mvvad.sys",
+						"C:\\WINDOWS\\system32\\DRIVERS\\drmk.sys",
+						"C:\\WINDOWS\\system32\\DRIVERS\\portcls.sys"
+					],
+					"driverKey" : "{4d36e96c-e325-11ce-bfc1-08002be10318}\\0001",
+					"driverType" : 2,
+					"driverVersion" : "2024.7.1.0",
+					"fix" : false,
+					"flags" : 270400,
+					"friendlyName" : "Voicemod Virtual Audio Device (WDM)",
+					"hardwareId" : "*vmdriver",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : false,
+					"infDate" : 13381390923,
+					"infDateFormatted" : "2025-01-15 05:02:03",
+					"infFileName" : "mvvad.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "Voicemod S.L.",
+					"matchingId" : "49E4592CEE75117825D485ADC6C35467F6D449EECCA3368744D7761B16315CFC",
+					"oemInf" : "C:\\WINDOWS\\INF\\oem28.inf",
+					"providerName" : "Voicemod",
+					"rank" : 16711680,
+					"rejectedReason" : 0,
+					"sectionName" : "VOICEMOD_Driver",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\mvvad.inf_amd64_aea283d9d72c66b2\\mvvad.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"*VMDriver"
+			],
+			"hasProblem" : false,
+			"hash" : "49E4592CEE75117825D485ADC6C35467F6D449EECCA3368744D7761B16315CFC",
+			"id" : "VoicemodS.L.-VoicemodVirtualAudioDevice(WDM)",
+			"ignored" : false,
+			"installDate" : 13381392281,
+			"installDateFormatted" : "2025-01-15 05:24:41",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "ROOT\\MEDIA\\0000",
+			"instances" : 
+			[
+				"ROOT\\MEDIA\\0000"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "",
+			"manufacturer" : "Voicemod S.L.",
+			"name" : "Voicemod Virtual Audio Device (WDM)",
+			"parent" : "HTREE\\ROOT\\0",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : [],
+			"class" : "HIDClass",
+			"classGuid" : "{745A17A0-74D3-11D0-B6FE-00A0C90F57DA}",
+			"classIconName" : "USB",
+			"compatibleIds" : [],
+			"connected" : true,
+			"containerId" : "{FE82DF31-D300-11EF-B8C1-806E6F6E6963}",
+			"devType" : 34,
+			"deviceInst" : 26,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "HID \uaddc\uaca9 \uc2dc\uc2a4\ud15c \ucee8\ud2b8\ub864\ub7ec",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}\\0030",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1882",
+					"fix" : false,
+					"flags" : 3416132,
+					"friendlyName" : "HID \uaddc\uaca9 \uc2dc\uc2a4\ud15c \ucee8\ud2b8\ub864\ub7ec",
+					"hardwareId" : "hid_device_up:0001_u:0080\u0000\u0000",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372561049,
+					"infDateFormatted" : "2024-10-05 00:17:29",
+					"infFileName" : "input.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+					"matchingId" : "4A04BC76F51B3E53A462AC8F55C25AD05C5753E4C3F6E49628C2CA8A80A6C9BF",
+					"oemInf" : "C:\\WINDOWS\\INF\\input.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16715780,
+					"rejectedReason" : 0,
+					"sectionName" : "HID_Raw_Inst",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\input.inf_amd64_13f4bea4a16ca4c8\\input.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"HID\\VID_1532&PID_0072&REV_0200&MI_01&Col03",
+				"HID\\VID_1532&PID_0072&MI_01&Col03",
+				"HID\\VID_1532&UP:0001_U:0080",
+				"HID_DEVICE_SYSTEM_CONTROL",
+				"HID_DEVICE_UP:0001_U:0080",
+				"HID_DEVICE"
+			],
+			"hasProblem" : false,
+			"hash" : "4A04BC76F51B3E53A462AC8F55C25AD05C5753E4C3F6E49628C2CA8A80A6C9BF",
+			"id" : "(\ud45c\uc900\uc2dc\uc2a4\ud15c\uc7a5\uce58)-HID\uaddc\uaca9\uc2dc\uc2a4\ud15c\ucee8\ud2b8\ub864\ub7ec",
+			"ignored" : false,
+			"installDate" : 13381392278,
+			"installDateFormatted" : "2025-01-15 05:24:38",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "HID\\VID_1532&PID_0072&MI_01&COL03\\B&38C51EFD&0&0002",
+			"instances" : 
+			[
+				"HID\\VID_1532&PID_0072&MI_01&COL03\\B&38C51EFD&0&0002"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "",
+			"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+			"name" : "HID \uaddc\uaca9 \uc2dc\uc2a4\ud15c \ucee8\ud2b8\ub864\ub7ec",
+			"parent" : "USB\\VID_1532&PID_0072&MI_01\\A&37288846&0&0001",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : [],
+			"class" : "System",
+			"classGuid" : "{4D36E97D-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "System",
+			"compatibleIds" : [],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 84,
+			"driversList" : [],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"ACPI\\VEN_PNP&DEV_0C01",
+				"ACPI\\PNP0C01",
+				"*PNP0C01"
+			],
+			"hasProblem" : false,
+			"hash" : "4E7DE9CC0B47A767401451C0B806782281D7FD4DA7848C3751BBD429263E2843",
+			"id" : "(\ud45c\uc900\uc2dc\uc2a4\ud15c\uc7a5\uce58)-\uc2dc\uc2a4\ud15c\ubcf4\ub4dc",
+			"ignored" : false,
+			"installDate" : 13381392270,
+			"installDateFormatted" : "2025-01-15 05:24:30",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "ACPI\\PNP0C01\\C8",
+			"instances" : 
+			[
+				"ACPI\\PNP0C01\\C8"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "",
+			"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+			"name" : "\uc2dc\uc2a4\ud15c \ubcf4\ub4dc",
+			"parent" : "ACPI\\PNP0A08\\0",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 0
+		},
+		{
+			"childrenIds" : [],
+			"class" : "System",
+			"classGuid" : "{4D36E97D-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "System",
+			"compatibleIds" : [],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 155,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "AMD Crash Defender",
+					"driverDate" : 13359513600,
+					"driverDateFormatted" : "2024-05-07 00:00:00",
+					"driverFiles" : 
+					[
+						"C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\amdfendr.inf_amd64_987f8cede005f427\\amdfendr.sys",
+						"C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\amdfendr.inf_amd64_987f8cede005f427\\amdfendrmgr.sys"
+					],
+					"driverKey" : "{4d36e97d-e325-11ce-bfc1-08002be10318}\\0003",
+					"driverType" : 2,
+					"driverVersion" : "24.20.0.3",
+					"fix" : false,
+					"flags" : 270404,
+					"friendlyName" : "AMD Crash Defender",
+					"hardwareId" : "root\\amdlog",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : false,
+					"infDate" : 13381390924,
+					"infDateFormatted" : "2025-01-15 05:02:04",
+					"infFileName" : "amdfendr.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "Advanced Micro Devices, Inc.",
+					"matchingId" : "4FF59638EF920EE7FEC3DF99E0EED8D48CC1AF3430E12339C6525FDD1D4367DF",
+					"oemInf" : "C:\\WINDOWS\\INF\\oem37.inf",
+					"providerName" : "Advanced Micro Devices, Inc.",
+					"rank" : 16711680,
+					"rejectedReason" : 0,
+					"sectionName" : "AMDFENDR_INSTALL",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\amdfendr.inf_amd64_987f8cede005f427\\amdfendr.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"ROOT\\AMDLOG"
+			],
+			"hasProblem" : false,
+			"hash" : "4FF59638EF920EE7FEC3DF99E0EED8D48CC1AF3430E12339C6525FDD1D4367DF",
+			"id" : "AdvancedMicroDevices,Inc.-AMDCrashDefender",
+			"ignored" : false,
+			"installDate" : 13381392269,
+			"installDateFormatted" : "2025-01-15 05:24:29",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "ROOT\\AMDLOG\\0000",
+			"instances" : 
+			[
+				"ROOT\\AMDLOG\\0000"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "",
+			"manufacturer" : "Advanced Micro Devices, Inc.",
+			"name" : "AMD Crash Defender",
+			"parent" : "HTREE\\ROOT\\0",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : 
+			[
+				"RZCONTROL\\VID_1532&PID_0072&MI_00\\C&2555A5BC&0"
+			],
+			"class" : "Mouse",
+			"classGuid" : "{4D36E96F-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "Mouse",
+			"compatibleIds" : [],
+			"connected" : true,
+			"containerId" : "{FE82DF31-D300-11EF-B8C1-806E6F6E6963}",
+			"devType" : 1,
+			"deviceInst" : 35,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "HID \uc900\uc218 \uc7a5\uce58",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{4d36e96f-e325-11ce-bfc1-08002be10318}\\0002",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1882",
+					"fix" : false,
+					"flags" : 3153988,
+					"friendlyName" : "Razer Mamba Wireless",
+					"hardwareId" : "hid_device\u0000\u0000",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372561049,
+					"infDateFormatted" : "2024-10-05 00:17:29",
+					"infFileName" : "input.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+					"matchingId" : "50D246FE28C726204BFC82C828AAFF5884492924937FDB621D5F133679EE72B1",
+					"oemInf" : "C:\\WINDOWS\\INF\\input.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16715781,
+					"rejectedReason" : 0,
+					"sectionName" : "HID_Raw_Inst",
+					"selectionOrder" : 2,
+					"state" : 1,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\input.inf_amd64_13f4bea4a16ca4c8\\input.inf",
+					"vulnerable" : false
+				},
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "HID \uaddc\uaca9 \ub9c8\uc6b0\uc2a4",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{4d36e96f-e325-11ce-bfc1-08002be10318}\\0002",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1150",
+					"fix" : false,
+					"flags" : 1056832,
+					"friendlyName" : "Razer Mamba Wireless",
+					"hardwareId" : "hid_device_system_mouse\u0000\u0000",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372560147,
+					"infDateFormatted" : "2024-10-05 00:02:27",
+					"infFileName" : "msmouse.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "Microsoft",
+					"matchingId" : "50D246FE28C726204BFC82C828AAFF5884492924937FDB621D5F133679EE72B1",
+					"oemInf" : "C:\\WINDOWS\\INF\\msmouse.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16715779,
+					"rejectedReason" : 0,
+					"sectionName" : "HID_Mouse_Inst",
+					"selectionOrder" : 1,
+					"state" : 1,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\msmouse.inf_amd64_097bbd709f0c4972\\msmouse.inf",
+					"vulnerable" : false
+				},
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "Razer Mamba Wireless",
+					"driverDate" : 13242182400,
+					"driverDateFormatted" : "2020-08-18 00:00:00",
+					"driverFiles" : 
+					[
+						"C:\\WINDOWS\\system32\\DRIVERS\\RzDev_0072.sys",
+						"C:\\WINDOWS\\system32\\DRIVERS\\mouhid.sys",
+						"C:\\WINDOWS\\system32\\DRIVERS\\mouclass.sys"
+					],
+					"driverKey" : "{4d36e96f-e325-11ce-bfc1-08002be10318}\\0002",
+					"driverType" : 2,
+					"driverVersion" : "10.0.15063.0",
+					"fix" : false,
+					"flags" : 270400,
+					"friendlyName" : "Razer Mamba Wireless",
+					"hardwareId" : "hid\\vid_1532&pid_0072&mi_00",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : false,
+					"infDate" : 13381390920,
+					"infDateFormatted" : "2025-01-15 05:02:00",
+					"infFileName" : "rzdevu_0072_mou.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "Razer Inc",
+					"matchingId" : "50D246FE28C726204BFC82C828AAFF5884492924937FDB621D5F133679EE72B1",
+					"oemInf" : "C:\\WINDOWS\\INF\\oem16.inf",
+					"providerName" : "Razer Inc",
+					"rank" : 16711681,
+					"rejectedReason" : 0,
+					"sectionName" : "RzDev_Device",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\rzdevu_0072_mou.inf_amd64_d6849588f63b9b98\\rzdevu_0072_mou.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"HID\\VID_1532&PID_0072&REV_0200&MI_00",
+				"HID\\VID_1532&PID_0072&MI_00",
+				"HID\\VID_1532&UP:0001_U:0002",
+				"HID_DEVICE_SYSTEM_MOUSE",
+				"HID_DEVICE_UP:0001_U:0002",
+				"HID_DEVICE"
+			],
+			"hasProblem" : false,
+			"hash" : "50D246FE28C726204BFC82C828AAFF5884492924937FDB621D5F133679EE72B1",
+			"id" : "RazerInc-RazerMambaWireless",
+			"ignored" : false,
+			"installDate" : 13381392278,
+			"installDateFormatted" : "2025-01-15 05:24:38",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "HID\\VID_1532&PID_0072&MI_00\\B&14EDE13B&0&0000",
+			"instances" : 
+			[
+				"HID\\VID_1532&PID_0072&MI_00\\B&14EDE13B&0&0000"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "",
+			"manufacturer" : "Razer Inc",
+			"name" : "Razer Mamba Wireless",
+			"parent" : "USB\\VID_1532&PID_0072&MI_00\\A&37288846&0&0000",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : [],
+			"class" : "HIDClass",
+			"classGuid" : "{745A17A0-74D3-11D0-B6FE-00A0C90F57DA}",
+			"classIconName" : "USB",
+			"compatibleIds" : [],
+			"connected" : true,
+			"containerId" : "{FE82DF31-D300-11EF-B8C1-806E6F6E6963}",
+			"devType" : 34,
+			"deviceInst" : 62,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "HID \uc900\uc218 \uc7a5\uce58",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}\\0031",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1882",
+					"fix" : false,
+					"flags" : 3416132,
+					"friendlyName" : "HID \uc900\uc218 \uc7a5\uce58",
+					"hardwareId" : "hid_device\u0000\u0000",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372561049,
+					"infDateFormatted" : "2024-10-05 00:17:29",
+					"infFileName" : "input.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+					"matchingId" : "50D8B0A64737964440EF8971A303AA4130312F1375681B2773B024529379E5EB",
+					"oemInf" : "C:\\WINDOWS\\INF\\input.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16715780,
+					"rejectedReason" : 0,
+					"sectionName" : "HID_Raw_Inst",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\input.inf_amd64_13f4bea4a16ca4c8\\input.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"HID\\VID_1532&PID_0072&REV_0200&MI_01&Col04",
+				"HID\\VID_1532&PID_0072&MI_01&Col04",
+				"HID\\VID_1532&UP:0001_U:0000",
+				"HID_DEVICE_UP:0001_U:0000",
+				"HID_DEVICE"
+			],
+			"hasProblem" : false,
+			"hash" : "50D8B0A64737964440EF8971A303AA4130312F1375681B2773B024529379E5EB",
+			"id" : "(\ud45c\uc900\uc2dc\uc2a4\ud15c\uc7a5\uce58)-HID\uc900\uc218\uc7a5\uce58",
+			"ignored" : false,
+			"installDate" : 13381392278,
+			"installDateFormatted" : "2025-01-15 05:24:38",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "HID\\VID_1532&PID_0072&MI_01&COL04\\B&38C51EFD&0&0003",
+			"instances" : 
+			[
+				"HID\\VID_1532&PID_0072&MI_01&COL04\\B&38C51EFD&0&0003"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "",
+			"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+			"name" : "HID \uc900\uc218 \uc7a5\uce58",
+			"parent" : "USB\\VID_1532&PID_0072&MI_01\\A&37288846&0&0001",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : 
+			[
+				"RZCONTROL\\VID_1532&PID_028D&MI_00\\B&33CD7574&0"
+			],
+			"class" : "HIDClass",
+			"classGuid" : "{745A17A0-74D3-11D0-B6FE-00A0C90F57DA}",
+			"classIconName" : "USB",
+			"compatibleIds" : [],
+			"connected" : true,
+			"containerId" : "{FE82DF26-D300-11EF-B8C1-806E6F6E6963}",
+			"devType" : 3,
+			"deviceInst" : 168,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "HID \uc900\uc218 \uc7a5\uce58",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}\\0015",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1882",
+					"fix" : false,
+					"flags" : 3153988,
+					"friendlyName" : "HID-compliant consumer control device",
+					"hardwareId" : "hid_device\u0000\u0000",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372561049,
+					"infDateFormatted" : "2024-10-05 00:17:29",
+					"infFileName" : "input.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+					"matchingId" : "5129F58ADDD84D259CA4C9232DF1AF1FEB3E53C4C746140C1D7AABCDA8F06FC2",
+					"oemInf" : "C:\\WINDOWS\\INF\\input.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16715780,
+					"rejectedReason" : 0,
+					"sectionName" : "HID_Raw_Inst",
+					"selectionOrder" : 2,
+					"state" : 1,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\input.inf_amd64_13f4bea4a16ca4c8\\input.inf",
+					"vulnerable" : false
+				},
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "HID-compliant consumer control device",
+					"driverDate" : 13303958400,
+					"driverDateFormatted" : "2022-08-03 00:00:00",
+					"driverFiles" : 
+					[
+						"C:\\WINDOWS\\system32\\DRIVERS\\RzDev_028d.sys"
+					],
+					"driverKey" : "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}\\0015",
+					"driverType" : 2,
+					"driverVersion" : "10.0.15063.0",
+					"fix" : false,
+					"flags" : 12352,
+					"friendlyName" : "HID-compliant consumer control device",
+					"hardwareId" : "hid\\vid_1532&pid_028d&mi_03",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : false,
+					"infDate" : 13305294452,
+					"infDateFormatted" : "2022-08-18 11:07:32",
+					"infFileName" : "rzdevu_028d_hid.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "Razer Inc",
+					"matchingId" : "5129F58ADDD84D259CA4C9232DF1AF1FEB3E53C4C746140C1D7AABCDA8F06FC2",
+					"oemInf" : "C:\\WINDOWS\\INF\\oem40.inf",
+					"providerName" : "Razer Inc",
+					"rank" : 16711681,
+					"rejectedReason" : 0,
+					"sectionName" : "RzDev_Device",
+					"selectionOrder" : 1,
+					"state" : 1,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\rzdevu_028d_hid.inf_amd64_a737a3f9525bcef8\\rzdevu_028d_hid.inf",
+					"vulnerable" : false
+				},
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "HID-compliant consumer control device",
+					"driverDate" : 13357612800,
+					"driverDateFormatted" : "2024-04-15 00:00:00",
+					"driverFiles" : 
+					[
+						"C:\\WINDOWS\\system32\\DRIVERS\\RzDev_028d.sys"
+					],
+					"driverKey" : "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}\\0015",
+					"driverType" : 2,
+					"driverVersion" : "10.0.15063.0",
+					"fix" : false,
+					"flags" : 274496,
+					"friendlyName" : "HID-compliant consumer control device",
+					"hardwareId" : "hid\\vid_1532&pid_028d&mi_03",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : false,
+					"infDate" : 13381390928,
+					"infDateFormatted" : "2025-01-15 05:02:08",
+					"infFileName" : "rzdevu_028d_hid.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "Razer Inc",
+					"matchingId" : "5129F58ADDD84D259CA4C9232DF1AF1FEB3E53C4C746140C1D7AABCDA8F06FC2",
+					"oemInf" : "C:\\WINDOWS\\INF\\oem52.inf",
+					"providerName" : "Razer Inc",
+					"rank" : 16711681,
+					"rejectedReason" : 0,
+					"sectionName" : "RzDev_Device",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\rzdevu_028d_hid.inf_amd64_b2bd5ae6b8759402\\rzdevu_028d_hid.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"HID\\VID_1532&PID_028D&REV_0101&MI_03",
+				"HID\\VID_1532&PID_028D&MI_03",
+				"HID\\VID_1532&UP:0001_U:0000",
+				"HID_DEVICE_UP:0001_U:0000",
+				"HID_DEVICE"
+			],
+			"hasProblem" : false,
+			"hash" : "5129F58ADDD84D259CA4C9232DF1AF1FEB3E53C4C746140C1D7AABCDA8F06FC2",
+			"id" : "RazerInc-HID-compliantconsumercontroldevice",
+			"ignored" : false,
+			"installDate" : 13381392277,
+			"installDateFormatted" : "2025-01-15 05:24:37",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "HID\\VID_1532&PID_028D&MI_03\\A&5B4C7C5&0&0000",
+			"instances" : 
+			[
+				"HID\\VID_1532&PID_028D&MI_03\\A&5B4C7C5&0&0000"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "",
+			"manufacturer" : "Razer Inc",
+			"name" : "HID-compliant consumer control device",
+			"parent" : "USB\\VID_1532&PID_028D&MI_03\\9&113A6CD5&0&0003",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : [],
+			"class" : "System",
+			"classGuid" : "{4D36E97D-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "System",
+			"compatibleIds" : [],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 185,
+			"driversList" : [],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"ACPI\\VEN_PNP&DEV_0100",
+				"ACPI\\PNP0100",
+				"*PNP0100"
+			],
+			"hasProblem" : false,
+			"hash" : "51CD8B9FB1093EEC85D2C9F3B592BB9A6450ABB9D6177724888A53F76AE5A5C6",
+			"id" : "(\ud45c\uc900\uc2dc\uc2a4\ud15c\uc7a5\uce58)-\uc2dc\uc2a4\ud15c\ud0c0\uc774\uba38",
+			"ignored" : false,
+			"installDate" : 13381392270,
+			"installDateFormatted" : "2025-01-15 05:24:30",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "ACPI\\PNP0100\\4&D447ADA&0",
+			"instances" : 
+			[
+				"ACPI\\PNP0100\\4&D447ADA&0"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "",
+			"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+			"name" : "\uc2dc\uc2a4\ud15c \ud0c0\uc774\uba38",
+			"parent" : "PCI\\VEN_1022&DEV_790E&SUBSYS_790E1849&REV_51\\3&11583659&0&A3",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 0
+		},
+		{
+			"childrenIds" : [],
+			"class" : "HIDClass",
+			"classGuid" : "{745A17A0-74D3-11D0-B6FE-00A0C90F57DA}",
+			"classIconName" : "USB",
+			"compatibleIds" : [],
+			"connected" : true,
+			"containerId" : "{FE82DF31-D300-11EF-B8C1-806E6F6E6963}",
+			"devType" : 34,
+			"deviceInst" : 80,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "HID \uaddc\uaca9 \uc0ac\uc6a9\uc790 \ucee8\ud2b8\ub864 \uc7a5\uce58",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}\\0036",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1",
+					"fix" : false,
+					"flags" : 1318980,
+					"friendlyName" : "HID \uaddc\uaca9 \uc0ac\uc6a9\uc790 \ucee8\ud2b8\ub864 \uc7a5\uce58",
+					"hardwareId" : "hid_device_up:000c_u:0001",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13356429724,
+					"infDateFormatted" : "2024-04-01 07:22:04",
+					"infFileName" : "hidserv.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "Microsoft",
+					"matchingId" : "53A85A619F38F8744A44AD6BF5EB6BFB87826D9D704A1012EDDED33548C9DD48",
+					"oemInf" : "C:\\WINDOWS\\INF\\hidserv.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16711683,
+					"rejectedReason" : 0,
+					"sectionName" : "HIDSystemConsumerDevice",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\hidserv.inf_amd64_3111b4bfb553788d\\hidserv.inf",
+					"vulnerable" : false
+				},
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "HID \uc900\uc218 \uc7a5\uce58",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}\\0036",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1882",
+					"fix" : false,
+					"flags" : 3153988,
+					"friendlyName" : "HID \uaddc\uaca9 \uc0ac\uc6a9\uc790 \ucee8\ud2b8\ub864 \uc7a5\uce58",
+					"hardwareId" : "hid_device\u0000\u0000",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372561049,
+					"infDateFormatted" : "2024-10-05 00:17:29",
+					"infFileName" : "input.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+					"matchingId" : "53A85A619F38F8744A44AD6BF5EB6BFB87826D9D704A1012EDDED33548C9DD48",
+					"oemInf" : "C:\\WINDOWS\\INF\\input.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16715780,
+					"rejectedReason" : 0,
+					"sectionName" : "HID_Raw_Inst",
+					"selectionOrder" : 1,
+					"state" : 1,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\input.inf_amd64_13f4bea4a16ca4c8\\input.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"HID\\VID_1532&PID_0072&MI_00&Col03",
+				"HID\\VID_1532&UP:000C_U:0001",
+				"HID_DEVICE_SYSTEM_CONSUMER",
+				"HID_DEVICE_UP:000C_U:0001",
+				"HID_DEVICE"
+			],
+			"hasProblem" : false,
+			"hash" : "53A85A619F38F8744A44AD6BF5EB6BFB87826D9D704A1012EDDED33548C9DD48",
+			"id" : "Microsoft-HID\uaddc\uaca9\uc0ac\uc6a9\uc790\ucee8\ud2b8\ub864\uc7a5\uce58",
+			"ignored" : false,
+			"installDate" : 13382157791,
+			"installDateFormatted" : "2025-01-24 02:03:11",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "HID\\VID_1532&PID_0072&MI_00&COL03\\C&1BBD6739&0&0000",
+			"instances" : 
+			[
+				"HID\\VID_1532&PID_0072&MI_00&COL03\\C&1BBD6739&0&0000"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "",
+			"manufacturer" : "Microsoft",
+			"name" : "HID \uaddc\uaca9 \uc0ac\uc6a9\uc790 \ucee8\ud2b8\ub864 \uc7a5\uce58",
+			"parent" : "RZVIRTUAL\\VID_1532&PID_0072&MI_00&COL03\\B&38C51EFD&0&01",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : 
+			[
+				"USB\\VID_1532&PID_0072\\9&17E0ABA7&0&1"
+			],
+			"class" : "USB",
+			"classGuid" : "{36FC9E60-C465-11CF-8056-444553540000}",
+			"classIconName" : "USB",
+			"compatibleIds" : 
+			[
+				"USB\\USB20_HUB"
+			],
+			"connected" : true,
+			"containerId" : "{FE82DF27-D300-11EF-B8C1-806E6F6E6963}",
+			"devType" : 34,
+			"deviceInst" : 40,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "\uc77c\ubc18 USB \ud5c8\ube0c",
+					"driverDate" : 13371868800,
+					"driverDateFormatted" : "2024-09-27 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{36fc9e60-c465-11cf-8056-444553540000}\\0009",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1882",
+					"fix" : false,
+					"flags" : 1318980,
+					"friendlyName" : "\uc77c\ubc18 USB \ud5c8\ube0c",
+					"hardwareId" : "usb\\usb20_hub",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372561050,
+					"infDateFormatted" : "2024-10-05 00:17:30",
+					"infFileName" : "usbhub3.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "(\ud45c\uc900 USB \ud5c8\ube0c)",
+					"matchingId" : "5E66875588FF2C3F6CE16BAC414F73B688D79A84B4ADD57AD932BAB5123CE2BE",
+					"oemInf" : "C:\\WINDOWS\\INF\\usbhub3.inf",
+					"providerName" : "Microsoft",
+					"rank" : 8396800,
+					"rejectedReason" : 0,
+					"sectionName" : "Generic.Install",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\usbhub3.inf_amd64_d8c58aa3cc847250\\usbhub3.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"USB\\VID_05E3&PID_0610&REV_6060",
+				"USB\\VID_05E3&PID_0610"
+			],
+			"hasProblem" : false,
+			"hash" : "5E66875588FF2C3F6CE16BAC414F73B688D79A84B4ADD57AD932BAB5123CE2BE",
+			"id" : "(\ud45c\uc900USB\ud5c8\ube0c)-\uc77c\ubc18USB\ud5c8\ube0c",
+			"ignored" : false,
+			"installDate" : 13381392277,
+			"installDateFormatted" : "2025-01-15 05:24:37",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "USB\\VID_05E3&PID_0610\\8&F2CB6FA&0&13",
+			"instances" : 
+			[
+				"USB\\VID_05E3&PID_0610\\8&F2CB6FA&0&13"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "Port_#0013.Hub_#0002",
+			"manufacturer" : "(\ud45c\uc900 USB \ud5c8\ube0c)",
+			"name" : "\uc77c\ubc18 USB \ud5c8\ube0c",
+			"parent" : "USB\\ROOT_HUB30\\7&DACBA&0&0",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : [],
+			"class" : "System",
+			"classGuid" : "{4D36E97D-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "System",
+			"compatibleIds" : 
+			[
+				"PCI\\VEN_1022&CC_060000",
+				"PCI\\VEN_1022&CC_0600",
+				"PCI\\VEN_1022",
+				"PCI\\CC_060000",
+				"PCI\\CC_0600"
+			],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 56,
+			"driversList" : [],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"PCI\\VEN_1022&DEV_14E6&SUBSYS_00000000&REV_00",
+				"PCI\\VEN_1022&DEV_14E6&SUBSYS_00000000",
+				"PCI\\VEN_1022&DEV_14E6&REV_00",
+				"PCI\\VEN_1022&DEV_14E6",
+				"PCI\\VEN_1022&DEV_14E6&CC_060000",
+				"PCI\\VEN_1022&DEV_14E6&CC_0600"
+			],
+			"hasProblem" : false,
+			"hash" : "5F634F8E2E19DE016B79EDDAB5A331DAB54AFF9F9888968C29F7C435FBCB3362",
+			"id" : "(\ud45c\uc900\uc2dc\uc2a4\ud15c\uc7a5\uce58)-PCI\ud45c\uc900\ud638\uc2a4\ud2b8CPU\ube0c\ub9ac\uc9c0",
+			"ignored" : false,
+			"installDate" : 13381392270,
+			"installDateFormatted" : "2025-01-15 05:24:30",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "PCI\\VEN_1022&DEV_14E6&SUBSYS_00000000&REV_00\\3&11583659&0&C6",
+			"instances" : 
+			[
+				"PCI\\VEN_1022&DEV_14E6&SUBSYS_00000000&REV_00\\3&11583659&0&C6"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "PCI bus 0, device 24, function 6",
+			"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+			"name" : "PCI \ud45c\uc900 \ud638\uc2a4\ud2b8 CPU \ube0c\ub9ac\uc9c0",
+			"parent" : "ACPI\\PNP0A08\\0",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 0
+		},
+		{
+			"childrenIds" : [],
+			"class" : "MEDIA",
+			"classGuid" : "{4D36E96C-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "Audio",
+			"compatibleIds" : 
+			[
+				"HDAUDIO\\FUNC_01&CTLR_VEN_1002&CTLR_DEV_1640&VEN_1002&DEV_AA01&REV_1008",
+				"HDAUDIO\\FUNC_01&CTLR_VEN_1002&VEN_1002&DEV_AA01&REV_1008",
+				"HDAUDIO\\FUNC_01&VEN_1002&DEV_AA01&REV_1008",
+				"HDAUDIO\\FUNC_01&CTLR_VEN_1002&CTLR_DEV_1640&VEN_1002&DEV_AA01",
+				"HDAUDIO\\FUNC_01&CTLR_VEN_1002&VEN_1002&DEV_AA01",
+				"HDAUDIO\\FUNC_01&VEN_1002&DEV_AA01",
+				"HDAUDIO\\FUNC_01&CTLR_VEN_1002&CTLR_DEV_1640&VEN_1002",
+				"HDAUDIO\\FUNC_01&CTLR_VEN_1002&VEN_1002",
+				"HDAUDIO\\FUNC_01&VEN_1002",
+				"HDAUDIO\\FUNC_01&CTLR_VEN_1002&CTLR_DEV_1640",
+				"HDAUDIO\\FUNC_01&CTLR_VEN_1002",
+				"HDAUDIO\\FUNC_01&GF&VEN_1002&DEV_AA01&SUBSYS_00AA0100&REV_1008",
+				"HDAUDIO\\FUNC_01"
+			],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 29,
+			"deviceInst" : 167,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "High Definition Audio \uc7a5\uce58",
+					"driverDate" : 13364438400,
+					"driverDateFormatted" : "2024-07-03 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{4d36e96c-e325-11ce-bfc1-08002be10318}\\0003",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1150",
+					"fix" : false,
+					"flags" : 1318980,
+					"friendlyName" : "High Definition Audio \uc7a5\uce58",
+					"hardwareId" : "hdaudio\\func_01\u0000\u0000",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372560146,
+					"infDateFormatted" : "2024-10-05 00:02:26",
+					"infFileName" : "hdaudio.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "Microsoft",
+					"matchingId" : "62C22CB0A466C03BF1C1A69D2093959679575D45D8E000F212D2B9797C1ECEE5",
+					"oemInf" : "C:\\WINDOWS\\INF\\hdaudio.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16723980,
+					"rejectedReason" : 0,
+					"sectionName" : "HdAudModel",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\hdaudio.inf_amd64_22f2127ec785fb8d\\hdaudio.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"HDAUDIO\\FUNC_01&VEN_1002&DEV_AA01&SUBSYS_00AA0100&REV_1008",
+				"HDAUDIO\\FUNC_01&VEN_1002&DEV_AA01&SUBSYS_00AA0100"
+			],
+			"hasProblem" : false,
+			"hash" : "62C22CB0A466C03BF1C1A69D2093959679575D45D8E000F212D2B9797C1ECEE5",
+			"id" : "Microsoft-HighDefinitionAudio\uc7a5\uce58",
+			"ignored" : false,
+			"installDate" : 13381392282,
+			"installDateFormatted" : "2025-01-15 05:24:42",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "HDAUDIO\\FUNC_01&VEN_1002&DEV_AA01&SUBSYS_00AA0100&REV_1008\\5&28A47E64&0&0001",
+			"instances" : 
+			[
+				"HDAUDIO\\FUNC_01&VEN_1002&DEV_AA01&SUBSYS_00AA0100&REV_1008\\5&28A47E64&0&0001"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "Internal High Definition Audio Bus",
+			"manufacturer" : "Microsoft",
+			"name" : "High Definition Audio \uc7a5\uce58",
+			"parent" : "PCI\\VEN_1002&DEV_1640&SUBSYS_16401002&REV_00\\4&16012499&0&0141",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : [],
+			"class" : "System",
+			"classGuid" : "{4D36E97D-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "System",
+			"compatibleIds" : [],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 145,
+			"driversList" : [],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"ACPI\\VEN_PNP&DEV_0C0C",
+				"ACPI\\PNP0C0C",
+				"*PNP0C0C"
+			],
+			"hasProblem" : false,
+			"hash" : "64B2FBF411E37C2F20AAE96F3E6E34A1F41564897E45F00DDE5219B53A195B26",
+			"id" : "(\ud45c\uc900\uc2dc\uc2a4\ud15c\uc7a5\uce58)-ACPI\uc804\uc6d0\ub2e8\ucd94",
+			"ignored" : false,
+			"installDate" : 13381392270,
+			"installDateFormatted" : "2025-01-15 05:24:30",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "ACPI\\PNP0C0C\\AA",
+			"instances" : 
+			[
+				"ACPI\\PNP0C0C\\AA"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "",
+			"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+			"name" : "ACPI \uc804\uc6d0 \ub2e8\ucd94",
+			"parent" : "ACPI_HAL\\PNP0C08\\0",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 0
+		},
+		{
+			"childrenIds" : 
+			[
+				"USB\\VID_1A86&PID_7523\\6&185282C&0&2"
+			],
+			"class" : "USB",
+			"classGuid" : "{36FC9E60-C465-11CF-8056-444553540000}",
+			"classIconName" : "USB",
+			"compatibleIds" : [],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 169,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "USB \ub8e8\ud2b8 \ud5c8\ube0c(USB 3.0)",
+					"driverDate" : 13371868800,
+					"driverDateFormatted" : "2024-09-27 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{36fc9e60-c465-11cf-8056-444553540000}\\0005",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1882",
+					"fix" : false,
+					"flags" : 1318980,
+					"friendlyName" : "USB \ub8e8\ud2b8 \ud5c8\ube0c(USB 3.0)",
+					"hardwareId" : "usb\\root_hub30",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372561050,
+					"infDateFormatted" : "2024-10-05 00:17:30",
+					"infFileName" : "usbhub3.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "(\ud45c\uc900 USB \ud5c8\ube0c)",
+					"matchingId" : "6BA09E7BE3FD56C6FCE7A3F0B7DA9DB211B0A9D96C06B6C953D559AC5A819321",
+					"oemInf" : "C:\\WINDOWS\\INF\\usbhub3.inf",
+					"providerName" : "Microsoft",
+					"rank" : 8388610,
+					"rejectedReason" : 0,
+					"sectionName" : "Generic.Install",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\usbhub3.inf_amd64_d8c58aa3cc847250\\usbhub3.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"USB\\ROOT_HUB30&VID1022&PID15B7&REV0000",
+				"USB\\ROOT_HUB30&VID1022&PID15B7",
+				"USB\\ROOT_HUB30"
+			],
+			"hasProblem" : false,
+			"hash" : "6BA09E7BE3FD56C6FCE7A3F0B7DA9DB211B0A9D96C06B6C953D559AC5A819321",
+			"id" : "(\ud45c\uc900USB\ud5c8\ube0c)-USB\ub8e8\ud2b8\ud5c8\ube0c(USB3.0)",
+			"ignored" : false,
+			"installDate" : 13381392271,
+			"installDateFormatted" : "2025-01-15 05:24:31",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "USB\\ROOT_HUB30\\5&2DB9FE1A&0&0",
+			"instances" : 
+			[
+				"USB\\ROOT_HUB30\\5&2DB9FE1A&0&0"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "",
+			"manufacturer" : "(\ud45c\uc900 USB \ud5c8\ube0c)",
+			"name" : "USB \ub8e8\ud2b8 \ud5c8\ube0c(USB 3.0)",
+			"parent" : "PCI\\VEN_1022&DEV_15B7&SUBSYS_15B61849&REV_00\\4&16012499&0&0441",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : [],
+			"class" : "",
+			"classGuid" : "",
+			"classIconName" : "",
+			"compatibleIds" : 
+			[
+				"ACPI\\AMDIF031",
+				"AMDIF031"
+			],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 18,
+			"driversList" : [],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"ACPI\\VEN_AMDI&DEV_F031",
+				"ACPI\\AMDIF031",
+				"*AMDIF031"
+			],
+			"hasProblem" : true,
+			"hash" : "6C56F6A99EB90D5B5C0E57E646B3A6FC6B3919A343F39E8341BE95CCE5198C2F",
+			"id" : "Unknowndevice",
+			"ignored" : false,
+			"installDate" : 13381392282,
+			"installDateFormatted" : "2025-01-15 05:24:42",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000002",
+			"instancePath" : "ACPI\\AMDIF031\\0",
+			"instances" : 
+			[
+				"ACPI\\AMDIF031\\0"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "",
+			"manufacturer" : "",
+			"name" : "Unknown device",
+			"parent" : "ACPI_HAL\\PNP0C08\\0",
+			"problemCode" : 28,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : [],
+			"class" : "System",
+			"classGuid" : "{4D36E97D-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "System",
+			"compatibleIds" : 
+			[
+				"PCI\\VEN_1022&DEV_790B&REV_71",
+				"PCI\\VEN_1022&DEV_790B",
+				"PCI\\VEN_1022&CC_0C0500",
+				"PCI\\VEN_1022&CC_0C05",
+				"PCI\\VEN_1022",
+				"PCI\\CC_0C0500",
+				"PCI\\CC_0C05"
+			],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 44,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "AMD SMBus",
+					"driverDate" : 13267238400,
+					"driverDateFormatted" : "2021-06-04 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{4d36e97d-e325-11ce-bfc1-08002be10318}\\0032",
+					"driverType" : 2,
+					"driverVersion" : "5.12.0.38",
+					"fix" : false,
+					"flags" : 270400,
+					"friendlyName" : "AMD SMBus",
+					"hardwareId" : "pci\\ven_1022&dev_790b",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : false,
+					"infDate" : 13381390908,
+					"infDateFormatted" : "2025-01-15 05:01:48",
+					"infFileName" : "smbusamd.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "Advanced Micro Devices, Inc",
+					"matchingId" : "6D32ADADEA331423D96399EC828D8EC12E68C89D12F314D2219587C25ED27987",
+					"oemInf" : "C:\\WINDOWS\\INF\\oem4.inf",
+					"providerName" : "Advanced Micro Devices, Inc",
+					"rank" : 16719873,
+					"rejectedReason" : 0,
+					"sectionName" : "AMDSMBus64",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\smbusamd.inf_amd64_83e4fc8bd4e55010\\smbusamd.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"PCI\\VEN_1022&DEV_790B&SUBSYS_790B1849&REV_71",
+				"PCI\\VEN_1022&DEV_790B&SUBSYS_790B1849",
+				"PCI\\VEN_1022&DEV_790B&CC_0C0500",
+				"PCI\\VEN_1022&DEV_790B&CC_0C05"
+			],
+			"hasProblem" : false,
+			"hash" : "6D32ADADEA331423D96399EC828D8EC12E68C89D12F314D2219587C25ED27987",
+			"id" : "AdvancedMicroDevices,Inc-AMDSMBus",
+			"ignored" : false,
+			"installDate" : 13381392270,
+			"installDateFormatted" : "2025-01-15 05:24:30",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "PCI\\VEN_1022&DEV_790B&SUBSYS_790B1849&REV_71\\3&11583659&0&A0",
+			"instances" : 
+			[
+				"PCI\\VEN_1022&DEV_790B&SUBSYS_790B1849&REV_71\\3&11583659&0&A0"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "PCI bus 0, device 20, function 0",
+			"manufacturer" : "Advanced Micro Devices, Inc",
+			"name" : "AMD SMBus",
+			"parent" : "ACPI\\PNP0A08\\0",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : 
+			[
+				"HDAUDIO\\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_18491897&REV_1004\\5&63D5943&0&0001"
+			],
+			"class" : "System",
+			"classGuid" : "{4D36E97D-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "System",
+			"compatibleIds" : 
+			[
+				"PCI\\VEN_1022&DEV_15E3&REV_00",
+				"PCI\\VEN_1022&DEV_15E3",
+				"PCI\\VEN_1022&CC_040300",
+				"PCI\\VEN_1022&CC_0403",
+				"PCI\\VEN_1022",
+				"PCI\\CC_040300&DT_0",
+				"PCI\\CC_040300",
+				"PCI\\CC_0403&DT_0",
+				"PCI\\CC_0403"
+			],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 133,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "High Definition Audio \ucee8\ud2b8\ub864\ub7ec",
+					"driverDate" : 13371868800,
+					"driverDateFormatted" : "2024-09-27 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{4d36e97d-e325-11ce-bfc1-08002be10318}\\0055",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1882",
+					"fix" : false,
+					"flags" : 1318980,
+					"friendlyName" : "High Definition Audio \ucee8\ud2b8\ub864\ub7ec",
+					"hardwareId" : "pci\\cc_0403",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372561049,
+					"infDateFormatted" : "2024-10-05 00:17:29",
+					"infFileName" : "hdaudbus.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "Microsoft",
+					"matchingId" : "71AA29347561E19CC96A309543B1FB6D90635D6B34A03AB73E05F2700F89DF1A",
+					"oemInf" : "C:\\WINDOWS\\INF\\hdaudbus.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16719880,
+					"rejectedReason" : 0,
+					"sectionName" : "HDAudio_Device",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\hdaudbus.inf_amd64_d886b1bec10cb155\\hdaudbus.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"PCI\\VEN_1022&DEV_15E3&SUBSYS_18971849&REV_00",
+				"PCI\\VEN_1022&DEV_15E3&SUBSYS_18971849",
+				"PCI\\VEN_1022&DEV_15E3&CC_040300",
+				"PCI\\VEN_1022&DEV_15E3&CC_0403"
+			],
+			"hasProblem" : false,
+			"hash" : "71AA29347561E19CC96A309543B1FB6D90635D6B34A03AB73E05F2700F89DF1A",
+			"id" : "Microsoft-HighDefinitionAudio\ucee8\ud2b8\ub864\ub7ec",
+			"ignored" : false,
+			"installDate" : 13381392270,
+			"installDateFormatted" : "2025-01-15 05:24:30",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "PCI\\VEN_1022&DEV_15E3&SUBSYS_18971849&REV_00\\4&16012499&0&0641",
+			"instances" : 
+			[
+				"PCI\\VEN_1022&DEV_15E3&SUBSYS_18971849&REV_00\\4&16012499&0&0641"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "PCI bus 119, device 0, function 6",
+			"manufacturer" : "Microsoft",
+			"name" : "High Definition Audio \ucee8\ud2b8\ub864\ub7ec",
+			"parent" : "PCI\\VEN_1022&DEV_14DD&SUBSYS_14DD1022&REV_00\\3&11583659&0&41",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : 
+			[
+				"USB\\ROOT_HUB30\\5&7D6F9A1&0&0"
+			],
+			"class" : "USB",
+			"classGuid" : "{36FC9E60-C465-11CF-8056-444553540000}",
+			"classIconName" : "USB",
+			"compatibleIds" : 
+			[
+				"PCI\\VEN_1022&DEV_15B8&REV_00",
+				"PCI\\VEN_1022&DEV_15B8",
+				"PCI\\VEN_1022&CC_0C0330",
+				"PCI\\VEN_1022&CC_0C03",
+				"PCI\\VEN_1022",
+				"PCI\\CC_0C0330&DT_0",
+				"PCI\\CC_0C0330",
+				"PCI\\CC_0C03&DT_0",
+				"PCI\\CC_0C03"
+			],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 6,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "USB xHCI \uaddc\uaca9 \ud638\uc2a4\ud2b8 \ucee8\ud2b8\ub864\ub7ec",
+					"driverDate" : 13376102400,
+					"driverDateFormatted" : "2024-11-15 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{36fc9e60-c465-11cf-8056-444553540000}\\0002",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.2454",
+					"fix" : false,
+					"flags" : 1318980,
+					"friendlyName" : "AMD USB 2.0 \ud655\uc7a5 \uac00\ub2a5\ud55c \ud638\uc2a4\ud2b8 \ucee8\ud2b8\ub864\ub7ec - 1.20(Microsoft)",
+					"hardwareId" : "pci\\cc_0c0330",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13381469917,
+					"infDateFormatted" : "2025-01-16 02:58:37",
+					"infFileName" : "usbxhci.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "\uc77c\ubc18 USB xHCI \ud638\uc2a4\ud2b8 \ucee8\ud2b8\ub864\ub7ec",
+					"matchingId" : "760D3476188D523E35609381768762FA7B817A9B58C518ADAF6B59C1AB7445B3",
+					"oemInf" : "C:\\WINDOWS\\INF\\usbxhci.inf",
+					"providerName" : "Microsoft",
+					"rank" : 8396806,
+					"rejectedReason" : 0,
+					"sectionName" : "Generic.Install",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\usbxhci.inf_amd64_fc8670ce4b0a8dbf\\usbxhci.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"PCI\\VEN_1022&DEV_15B8&SUBSYS_15B61849&REV_00",
+				"PCI\\VEN_1022&DEV_15B8&SUBSYS_15B61849",
+				"PCI\\VEN_1022&DEV_15B8&CC_0C0330",
+				"PCI\\VEN_1022&DEV_15B8&CC_0C03"
+			],
+			"hasProblem" : false,
+			"hash" : "760D3476188D523E35609381768762FA7B817A9B58C518ADAF6B59C1AB7445B3",
+			"id" : "\uc77c\ubc18USBxHCI\ud638\uc2a4\ud2b8\ucee8\ud2b8\ub864\ub7ec-AMDUSB2.0\ud655\uc7a5\uac00\ub2a5\ud55c\ud638\uc2a4\ud2b8\ucee8\ud2b8\ub864\ub7ec-1.20(Microsoft)",
+			"ignored" : false,
+			"installDate" : 13381392270,
+			"installDateFormatted" : "2025-01-15 05:24:30",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "PCI\\VEN_1022&DEV_15B8&SUBSYS_15B61849&REV_00\\4&2C288D56&0&0043",
+			"instances" : 
+			[
+				"PCI\\VEN_1022&DEV_15B8&SUBSYS_15B61849&REV_00\\4&2C288D56&0&0043"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "PCI bus 120, device 0, function 0",
+			"manufacturer" : "\uc77c\ubc18 USB xHCI \ud638\uc2a4\ud2b8 \ucee8\ud2b8\ub864\ub7ec",
+			"name" : "AMD USB 2.0 \ud655\uc7a5 \uac00\ub2a5\ud55c \ud638\uc2a4\ud2b8 \ucee8\ud2b8\ub864\ub7ec - 1.20(Microsoft)",
+			"parent" : "PCI\\VEN_1022&DEV_14DD&SUBSYS_14DD1022&REV_00\\3&11583659&0&43",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : [],
+			"class" : "System",
+			"classGuid" : "{4D36E97D-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "System",
+			"compatibleIds" : [],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 158,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "AMD I2C \ucee8\ud2b8\ub864\ub7ec",
+					"driverDate" : 13198636800,
+					"driverDateFormatted" : "2019-04-02 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{4d36e97d-e325-11ce-bfc1-08002be10318}\\0014",
+					"driverType" : 2,
+					"driverVersion" : "1.2.0.99",
+					"fix" : false,
+					"flags" : 1318976,
+					"friendlyName" : "AMD I2C \ucee8\ud2b8\ub864\ub7ec",
+					"hardwareId" : "acpi\\amdi0010",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13356429722,
+					"infDateFormatted" : "2024-04-01 07:22:02",
+					"infFileName" : "amdi2c.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "Advanced Micro Devices, Inc.",
+					"matchingId" : "767715EF21721ADC82E8E98D897A4875E974F77AF580BB1E99E8E760B939E870",
+					"oemInf" : "C:\\WINDOWS\\INF\\amdi2c.inf",
+					"providerName" : "Advanced Micro Devices, Inc.",
+					"rank" : 16711681,
+					"rejectedReason" : 0,
+					"sectionName" : "amdi2c_Device",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\amdi2c.inf_amd64_d7ae71f8eb52c084\\amdi2c.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"ACPI\\VEN_AMDI&DEV_0010",
+				"ACPI\\AMDI0010",
+				"*AMDI0010"
+			],
+			"hasProblem" : false,
+			"hash" : "767715EF21721ADC82E8E98D897A4875E974F77AF580BB1E99E8E760B939E870",
+			"id" : "AdvancedMicroDevices,Inc.-AMDI2C\ucee8\ud2b8\ub864\ub7ec",
+			"ignored" : false,
+			"installDate" : 13381392270,
+			"installDateFormatted" : "2025-01-15 05:24:30",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "ACPI\\AMDI0010\\0",
+			"instances" : 
+			[
+				"ACPI\\AMDI0010\\0",
+				"ACPI\\AMDI0010\\1"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "",
+			"manufacturer" : "Advanced Micro Devices, Inc.",
+			"name" : "AMD I2C \ucee8\ud2b8\ub864\ub7ec",
+			"parent" : "ACPI_HAL\\PNP0C08\\0",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : [],
+			"class" : "DiskDrive",
+			"classGuid" : "{4D36E967-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "Storage",
+			"compatibleIds" : 
+			[
+				"SCSI\\Disk",
+				"SCSI\\RAW",
+				"Disk1667"
+			],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 76,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "\ub514\uc2a4\ud06c \ub4dc\ub77c\uc774\ube0c",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{4d36e967-e325-11ce-bfc1-08002be10318}\\0001",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1150",
+					"fix" : false,
+					"flags" : 1318976,
+					"friendlyName" : "SHGP31-1000GM",
+					"hardwareId" : "gendisk",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372560146,
+					"infDateFormatted" : "2024-10-05 00:02:26",
+					"infFileName" : "disk.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "(\ud45c\uc900 \ub514\uc2a4\ud06c \ub4dc\ub77c\uc774\ube0c)",
+					"matchingId" : "768F6681C04FC0376E2250A8BB8FE36DB4AEDEFCDE676654B87A73A31BEB0F6C",
+					"oemInf" : "C:\\WINDOWS\\INF\\disk.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16711687,
+					"rejectedReason" : 0,
+					"sectionName" : "disk_install",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\disk.inf_amd64_5fb855b6817525a2\\disk.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"SCSI\\DiskNVMe_______________________________SHGP31-1000GM41062C20",
+				"SCSI\\DiskNVMe_______________________________SHGP31-1000GM",
+				"SCSI\\DiskNVMe____SHGP31-1000GM___2C20",
+				"SCSI\\DiskNVMe____SHGP31-1000GM___",
+				"SCSI\\DiskNVMe____",
+				"SCSI\\NVMe____SHGP31-1000GM___2",
+				"NVMe____SHGP31-1000GM___2",
+				"GenDisk"
+			],
+			"hasProblem" : false,
+			"hash" : "768F6681C04FC0376E2250A8BB8FE36DB4AEDEFCDE676654B87A73A31BEB0F6C",
+			"id" : "(\ud45c\uc900\ub514\uc2a4\ud06c\ub4dc\ub77c\uc774\ube0c)-SHGP31-1000GM",
+			"ignored" : false,
+			"installDate" : 13381392271,
+			"installDateFormatted" : "2025-01-15 05:24:31",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "SCSI\\DISK&VEN_NVME&PROD_SHGP31-1000GM\\5&28051B72&0&000000",
+			"instances" : 
+			[
+				"SCSI\\DISK&VEN_NVME&PROD_SHGP31-1000GM\\5&28051B72&0&000000"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "Bus Number 0, Target Id 0, LUN 0",
+			"manufacturer" : "(\ud45c\uc900 \ub514\uc2a4\ud06c \ub4dc\ub77c\uc774\ube0c)",
+			"name" : "SHGP31-1000GM",
+			"parent" : "PCI\\VEN_1C5C&DEV_174A&SUBSYS_174A1C5C&REV_00\\4&333C8B5&0&0012",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : [],
+			"class" : "HIDClass",
+			"classGuid" : "{745A17A0-74D3-11D0-B6FE-00A0C90F57DA}",
+			"classIconName" : "USB",
+			"compatibleIds" : [],
+			"connected" : true,
+			"containerId" : "{FE82DF26-D300-11EF-B8C1-806E6F6E6963}",
+			"devType" : 34,
+			"deviceInst" : 74,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "HID \uaddc\uaca9 \uc2dc\uc2a4\ud15c \ucee8\ud2b8\ub864\ub7ec",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}\\0024",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1882",
+					"fix" : false,
+					"flags" : 3416132,
+					"friendlyName" : "HID \uaddc\uaca9 \uc2dc\uc2a4\ud15c \ucee8\ud2b8\ub864\ub7ec",
+					"hardwareId" : "hid_device_up:0001_u:0080\u0000\u0000",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372561049,
+					"infDateFormatted" : "2024-10-05 00:17:29",
+					"infFileName" : "input.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+					"matchingId" : "77F2559943FB54765F8DB6959E70D367CA7409400799B282192F1BE59DB6DF46",
+					"oemInf" : "C:\\WINDOWS\\INF\\input.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16715779,
+					"rejectedReason" : 0,
+					"sectionName" : "HID_Raw_Inst",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\input.inf_amd64_13f4bea4a16ca4c8\\input.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"HID\\VID_1532&PID_028D&MI_00&Col03&Col02",
+				"HID\\VID_1532&UP:0001_U:0080",
+				"HID_DEVICE_SYSTEM_CONTROL",
+				"HID_DEVICE_UP:0001_U:0080",
+				"HID_DEVICE"
+			],
+			"hasProblem" : false,
+			"hash" : "77F2559943FB54765F8DB6959E70D367CA7409400799B282192F1BE59DB6DF46",
+			"id" : "(\ud45c\uc900\uc2dc\uc2a4\ud15c\uc7a5\uce58)-HID\uaddc\uaca9\uc2dc\uc2a4\ud15c\ucee8\ud2b8\ub864\ub7ec",
+			"ignored" : false,
+			"installDate" : 13381392277,
+			"installDateFormatted" : "2025-01-15 05:24:37",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "HID\\VID_1532&PID_028D&MI_00&COL03&COL02\\B&30940E82&0&0001",
+			"instances" : 
+			[
+				"HID\\VID_1532&PID_028D&MI_00&COL03&COL02\\B&30940E82&0&0001"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "",
+			"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+			"name" : "HID \uaddc\uaca9 \uc2dc\uc2a4\ud15c \ucee8\ud2b8\ub864\ub7ec",
+			"parent" : "RZVIRTUAL\\VID_1532&PID_028D&MI_00&COL03\\A&353BE04F&0&01",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : [],
+			"class" : "System",
+			"classGuid" : "{4D36E97D-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "System",
+			"compatibleIds" : 
+			[
+				"PCI\\VEN_1022&CC_060000",
+				"PCI\\VEN_1022&CC_0600",
+				"PCI\\VEN_1022",
+				"PCI\\CC_060000",
+				"PCI\\CC_0600"
+			],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 30,
+			"driversList" : [],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"PCI\\VEN_1022&DEV_14E1&SUBSYS_00000000&REV_00",
+				"PCI\\VEN_1022&DEV_14E1&SUBSYS_00000000",
+				"PCI\\VEN_1022&DEV_14E1&REV_00",
+				"PCI\\VEN_1022&DEV_14E1",
+				"PCI\\VEN_1022&DEV_14E1&CC_060000",
+				"PCI\\VEN_1022&DEV_14E1&CC_0600"
+			],
+			"hasProblem" : false,
+			"hash" : "79CD30A43C79ED3DE5F0F4279B433CACE3A24B57800015B9BC0BF4BC16821AC2",
+			"id" : "(\ud45c\uc900\uc2dc\uc2a4\ud15c\uc7a5\uce58)-PCI\ud45c\uc900\ud638\uc2a4\ud2b8CPU\ube0c\ub9ac\uc9c0",
+			"ignored" : false,
+			"installDate" : 13381392270,
+			"installDateFormatted" : "2025-01-15 05:24:30",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "PCI\\VEN_1022&DEV_14E1&SUBSYS_00000000&REV_00\\3&11583659&0&C1",
+			"instances" : 
+			[
+				"PCI\\VEN_1022&DEV_14E1&SUBSYS_00000000&REV_00\\3&11583659&0&C1"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "PCI bus 0, device 24, function 1",
+			"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+			"name" : "PCI \ud45c\uc900 \ud638\uc2a4\ud2b8 CPU \ube0c\ub9ac\uc9c0",
+			"parent" : "ACPI\\PNP0A08\\0",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 0
+		},
+		{
+			"childrenIds" : [],
+			"class" : "System",
+			"classGuid" : "{4D36E97D-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "System",
+			"compatibleIds" : 
+			[
+				"PCI\\VEN_1022&CC_060000",
+				"PCI\\VEN_1022&CC_0600",
+				"PCI\\VEN_1022",
+				"PCI\\CC_060000",
+				"PCI\\CC_0600"
+			],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 176,
+			"driversList" : [],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"PCI\\VEN_1022&DEV_14E7&SUBSYS_00000000&REV_00",
+				"PCI\\VEN_1022&DEV_14E7&SUBSYS_00000000",
+				"PCI\\VEN_1022&DEV_14E7&REV_00",
+				"PCI\\VEN_1022&DEV_14E7",
+				"PCI\\VEN_1022&DEV_14E7&CC_060000",
+				"PCI\\VEN_1022&DEV_14E7&CC_0600"
+			],
+			"hasProblem" : false,
+			"hash" : "80C18B11EEA84F2646EBA8EDA0DA6C21ECFDD79032DEE541B4736E6F93950369",
+			"id" : "(\ud45c\uc900\uc2dc\uc2a4\ud15c\uc7a5\uce58)-PCI\ud45c\uc900\ud638\uc2a4\ud2b8CPU\ube0c\ub9ac\uc9c0",
+			"ignored" : false,
+			"installDate" : 13381392270,
+			"installDateFormatted" : "2025-01-15 05:24:30",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "PCI\\VEN_1022&DEV_14E7&SUBSYS_00000000&REV_00\\3&11583659&0&C7",
+			"instances" : 
+			[
+				"PCI\\VEN_1022&DEV_14E7&SUBSYS_00000000&REV_00\\3&11583659&0&C7"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "PCI bus 0, device 24, function 7",
+			"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+			"name" : "PCI \ud45c\uc900 \ud638\uc2a4\ud2b8 CPU \ube0c\ub9ac\uc9c0",
+			"parent" : "ACPI\\PNP0A08\\0",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 0
+		},
+		{
+			"childrenIds" : 
+			[
+				"USB\\VID_1532&PID_028D&MI_00\\9&113A6CD5&0&0000",
+				"USB\\VID_1532&PID_028D&MI_01\\9&113A6CD5&0&0001",
+				"USB\\VID_1532&PID_028D&MI_02\\9&113A6CD5&0&0002",
+				"USB\\VID_1532&PID_028D&MI_03\\9&113A6CD5&0&0003",
+				"USB\\VID_1532&PID_028D&MI_04\\9&113A6CD5&0&0004"
+			],
+			"class" : "USB",
+			"classGuid" : "{36FC9E60-C465-11CF-8056-444553540000}",
+			"classIconName" : "USB",
+			"compatibleIds" : 
+			[
+				"USB\\COMPAT_VID_1532&DevClass_00&SubClass_00&Prot00",
+				"USB\\COMPAT_VID_1532&DevClass_00&SubClass_00",
+				"USB\\COMPAT_VID_1532&DevClass_00",
+				"USB\\DevClass_00&SubClass_00&Prot_00",
+				"USB\\DevClass_00&SubClass_00",
+				"USB\\DevClass_00",
+				"USB\\COMPOSITE"
+			],
+			"connected" : true,
+			"containerId" : "{FE82DF26-D300-11EF-B8C1-806E6F6E6963}",
+			"devType" : 34,
+			"deviceInst" : 180,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "USB Composite Device",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{36fc9e60-c465-11cf-8056-444553540000}\\0008",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1882",
+					"fix" : false,
+					"flags" : 1318980,
+					"friendlyName" : "USB Composite Device",
+					"hardwareId" : "usb\\composite",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372561050,
+					"infDateFormatted" : "2024-10-05 00:17:30",
+					"infFileName" : "usb.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "(\ud45c\uc900 USB \ud638\uc2a4\ud2b8 \ucee8\ud2b8\ub864\ub7ec)",
+					"matchingId" : "83D9CFA9F192127EEE3F08A52A7E61C5C75580ECEC49784BD577EC8889F1B0AF",
+					"oemInf" : "C:\\WINDOWS\\INF\\usb.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16719878,
+					"rejectedReason" : 0,
+					"sectionName" : "Composite.Dev",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\usb.inf_amd64_e6361bd9b1fba04a\\usb.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"USB\\VID_1532&PID_028D&REV_0101",
+				"USB\\VID_1532&PID_028D"
+			],
+			"hasProblem" : false,
+			"hash" : "83D9CFA9F192127EEE3F08A52A7E61C5C75580ECEC49784BD577EC8889F1B0AF",
+			"id" : "(\ud45c\uc900USB\ud638\uc2a4\ud2b8\ucee8\ud2b8\ub864\ub7ec)-USBCompositeDevice",
+			"ignored" : false,
+			"installDate" : 13381392277,
+			"installDateFormatted" : "2025-01-15 05:24:37",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "USB\\VID_1532&PID_028D\\8&F2CB6FA&0&18",
+			"instances" : 
+			[
+				"USB\\VID_1532&PID_028D\\8&F2CB6FA&0&18"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "Port_#0018.Hub_#0002",
+			"manufacturer" : "(\ud45c\uc900 USB \ud638\uc2a4\ud2b8 \ucee8\ud2b8\ub864\ub7ec)",
+			"name" : "USB Composite Device",
+			"parent" : "USB\\ROOT_HUB30\\7&DACBA&0&0",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : [],
+			"class" : "Keyboard",
+			"classGuid" : "{4D36E96B-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "Keyboard",
+			"compatibleIds" : [],
+			"connected" : true,
+			"containerId" : "{FE82DF31-D300-11EF-B8C1-806E6F6E6963}",
+			"devType" : 34,
+			"deviceInst" : 138,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "HID \uc900\uc218 \uc7a5\uce58",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{4d36e96b-e325-11ce-bfc1-08002be10318}\\0004",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1882",
+					"fix" : false,
+					"flags" : 3153988,
+					"friendlyName" : "Razer Mamba Wireless",
+					"hardwareId" : "hid_device\u0000\u0000",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372561049,
+					"infDateFormatted" : "2024-10-05 00:17:29",
+					"infFileName" : "input.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "(\ud45c\uc900 \uc2dc\uc2a4\ud15c \uc7a5\uce58)",
+					"matchingId" : "8422E67C9D63AEBFA847C753D74B8BA65A3CAAF8F0D475AEC5BC84FC5DCB4A30",
+					"oemInf" : "C:\\WINDOWS\\INF\\input.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16715781,
+					"rejectedReason" : 0,
+					"sectionName" : "HID_Raw_Inst",
+					"selectionOrder" : 2,
+					"state" : 1,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\input.inf_amd64_13f4bea4a16ca4c8\\input.inf",
+					"vulnerable" : false
+				},
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "HID \ud0a4\ubcf4\ub4dc \uc7a5\uce58",
+					"driverDate" : 12795321600,
+					"driverDateFormatted" : "2006-06-21 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{4d36e96b-e325-11ce-bfc1-08002be10318}\\0004",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1882",
+					"fix" : false,
+					"flags" : 1056832,
+					"friendlyName" : "Razer Mamba Wireless",
+					"hardwareId" : "hid_device_system_keyboard\u0000\u0000",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372561049,
+					"infDateFormatted" : "2024-10-05 00:17:29",
+					"infFileName" : "keyboard.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "(\ud45c\uc900 \ud0a4\ubcf4\ub4dc)",
+					"matchingId" : "8422E67C9D63AEBFA847C753D74B8BA65A3CAAF8F0D475AEC5BC84FC5DCB4A30",
+					"oemInf" : "C:\\WINDOWS\\INF\\keyboard.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16715779,
+					"rejectedReason" : 0,
+					"sectionName" : "HID_Keyboard_Inst",
+					"selectionOrder" : 1,
+					"state" : 1,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\keyboard.inf_amd64_c56788078819b951\\keyboard.inf",
+					"vulnerable" : false
+				},
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "Razer Mamba Wireless",
+					"driverDate" : 13242182400,
+					"driverDateFormatted" : "2020-08-18 00:00:00",
+					"driverFiles" : 
+					[
+						"C:\\WINDOWS\\system32\\DRIVERS\\RzDev_0072.sys",
+						"C:\\WINDOWS\\system32\\DRIVERS\\kbdhid.sys",
+						"C:\\WINDOWS\\system32\\DRIVERS\\kbdclass.sys"
+					],
+					"driverKey" : "{4d36e96b-e325-11ce-bfc1-08002be10318}\\0004",
+					"driverType" : 2,
+					"driverVersion" : "10.0.15063.0",
+					"fix" : false,
+					"flags" : 270400,
+					"friendlyName" : "Razer Mamba Wireless",
+					"hardwareId" : "hid\\vid_1532&pid_0072&mi_01&col01",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : false,
+					"infDate" : 13381390923,
+					"infDateFormatted" : "2025-01-15 05:02:03",
+					"infFileName" : "rzdevu_0072_kbd.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "Razer Inc",
+					"matchingId" : "8422E67C9D63AEBFA847C753D74B8BA65A3CAAF8F0D475AEC5BC84FC5DCB4A30",
+					"oemInf" : "C:\\WINDOWS\\INF\\oem30.inf",
+					"providerName" : "Razer Inc",
+					"rank" : 16711681,
+					"rejectedReason" : 0,
+					"sectionName" : "RzDev_Device",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\rzdevu_0072_kbd.inf_amd64_bd83bd25d6afc01d\\rzdevu_0072_kbd.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"HID\\VID_1532&PID_0072&REV_0200&MI_01&Col01",
+				"HID\\VID_1532&PID_0072&MI_01&Col01",
+				"HID\\VID_1532&UP:0001_U:0006",
+				"HID_DEVICE_SYSTEM_KEYBOARD",
+				"HID_DEVICE_UP:0001_U:0006",
+				"HID_DEVICE"
+			],
+			"hasProblem" : false,
+			"hash" : "8422E67C9D63AEBFA847C753D74B8BA65A3CAAF8F0D475AEC5BC84FC5DCB4A30",
+			"id" : "RazerInc-RazerMambaWireless",
+			"ignored" : false,
+			"installDate" : 13381392278,
+			"installDateFormatted" : "2025-01-15 05:24:38",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "HID\\VID_1532&PID_0072&MI_01&COL01\\B&38C51EFD&0&0000",
+			"instances" : 
+			[
+				"HID\\VID_1532&PID_0072&MI_01&COL01\\B&38C51EFD&0&0000"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "",
+			"manufacturer" : "Razer Inc",
+			"name" : "Razer Mamba Wireless",
+			"parent" : "USB\\VID_1532&PID_0072&MI_01\\A&37288846&0&0001",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		},
+		{
+			"childrenIds" : 
+			[
+				"HDAUDIO\\FUNC_01&VEN_1002&DEV_AA01&SUBSYS_00AA0100&REV_1008\\5&28A47E64&0&0001"
+			],
+			"class" : "System",
+			"classGuid" : "{4D36E97D-E325-11CE-BFC1-08002BE10318}",
+			"classIconName" : "System",
+			"compatibleIds" : 
+			[
+				"PCI\\VEN_1002&DEV_1640&REV_00",
+				"PCI\\VEN_1002&DEV_1640",
+				"PCI\\VEN_1002&CC_040300",
+				"PCI\\VEN_1002&CC_0403",
+				"PCI\\VEN_1002",
+				"PCI\\CC_040300&DT_1",
+				"PCI\\CC_040300",
+				"PCI\\CC_0403&DT_1",
+				"PCI\\CC_0403"
+			],
+			"connected" : true,
+			"containerId" : "{00000000-0000-0000-FFFF-FFFFFFFFFFFF}",
+			"devType" : 34,
+			"deviceInst" : 54,
+			"driversList" : 
+			[
+				{
+					"crashCounter" : 0,
+					"cveIdentifiers" : [],
+					"description" : "High Definition Audio \ucee8\ud2b8\ub864\ub7ec",
+					"driverDate" : 13371868800,
+					"driverDateFormatted" : "2024-09-27 00:00:00",
+					"driverFiles" : [],
+					"driverKey" : "{4d36e97d-e325-11ce-bfc1-08002be10318}\\0054",
+					"driverType" : 2,
+					"driverVersion" : "10.0.26100.1882",
+					"fix" : false,
+					"flags" : 1318980,
+					"friendlyName" : "High Definition Audio \ucee8\ud2b8\ub864\ub7ec",
+					"hardwareId" : "pci\\cc_0403",
+					"hasProblem" : false,
+					"hidden" : false,
+					"ignored" : false,
+					"inbox" : true,
+					"infDate" : 13372561049,
+					"infDateFormatted" : "2024-10-05 00:17:29",
+					"infFileName" : "hdaudbus.inf",
+					"isDchDriver" : false,
+					"manufacturer" : "Microsoft",
+					"matchingId" : "856809A35EFEB9CF775E8B7E23EFFE1B34A5158FB6C3CD1180159E2B21DF9C29",
+					"oemInf" : "C:\\WINDOWS\\INF\\hdaudbus.inf",
+					"providerName" : "Microsoft",
+					"rank" : 16719880,
+					"rejectedReason" : 0,
+					"sectionName" : "HDAudio_Device",
+					"selectionOrder" : 0,
+					"state" : 0,
+					"storeInf" : "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\hdaudbus.inf_amd64_d886b1bec10cb155\\hdaudbus.inf",
+					"vulnerable" : false
+				}
+			],
+			"functionalData" : 
+			{
+				"childNumber" : 0,
+				"childProblems" : 0,
+				"hasPotentialProblem" : false,
+				"hasProblem" : false,
+				"potentialProblemCode" : 0,
+				"problemCode" : 0,
+				"siblingNumber" : 0,
+				"siblingProblems" : 0
+			},
+			"hardwareIds" : 
+			[
+				"PCI\\VEN_1002&DEV_1640&SUBSYS_16401002&REV_00",
+				"PCI\\VEN_1002&DEV_1640&SUBSYS_16401002",
+				"PCI\\VEN_1002&DEV_1640&CC_040300",
+				"PCI\\VEN_1002&DEV_1640&CC_0403"
+			],
+			"hasProblem" : false,
+			"hash" : "856809A35EFEB9CF775E8B7E23EFFE1B34A5158FB6C3CD1180159E2B21DF9C29",
+			"id" : "Microsoft-HighDefinitionAudio\ucee8\ud2b8\ub864\ub7ec",
+			"ignored" : false,
+			"installDate" : 13381392270,
+			"installDateFormatted" : "2025-01-15 05:24:30",
+			"installOperationData" : 
+			{
+				"actionPerformed" : 0,
+				"driverId" : "",
+				"driverType" : 0,
+				"error" : 0,
+				"installDuration" : 0,
+				"installationFinished" : 0,
+				"pendingVerification" : false,
+				"prevDriverId" : "",
+				"requiredReboot" : false
+			},
+			"installState" : "0X00000000",
+			"instancePath" : "PCI\\VEN_1002&DEV_1640&SUBSYS_16401002&REV_00\\4&16012499&0&0141",
+			"instances" : 
+			[
+				"PCI\\VEN_1002&DEV_1640&SUBSYS_16401002&REV_00\\4&16012499&0&0141"
+			],
+			"lastTimeConnected" : 1737689041,
+			"lastTimeConnectedFormatted" : "2025-01-24 03:24:01",
+			"location" : "PCI bus 119, device 0, function 1",
+			"manufacturer" : "Microsoft",
+			"name" : "High Definition Audio \ucee8\ud2b8\ub864\ub7ec",
+			"parent" : "PCI\\VEN_1022&DEV_14DD&SUBSYS_14DD1022&REV_00\\3&11583659&0&41",
+			"problemCode" : 0,
+			"state" : 1,
+			"type" : 2
+		}
+	],
+	"IgnoreList" : [],
+	"OpenTasks" : [],
+	"Status" : 
+	{
+		"crashingDrivers" : 0,
+		"foundDevices" : 0,
+		"hasProblemDevices" : 0,
+		"lastDeviceScan" : 0,
+		"lastRevert" : 0,
+		"lastScan" : 0,
+		"lastUpdate" : 0,
+		"outdatedDrivers" : 0,
+		"rebootRequired" : false,
+		"version" : "24.2.5585.0",
+		"vulnerableDrivers" : 0
+	},
+	"computerInfo" : 
+	{
+		"baseboard_manufacturer" : "ASRock",
+		"baseboard_product" : "B650M PG Lightning",
+		"baseboard_version" : "Default string",
+		"bios_manufacturer" : "American Megatrends International, LLC.",
+		"bios_name" : "3.06",
+		"bios_smbios_version" : "3.06",
+		"bios_version" : "ALASKA - 1",
+		"model" : "B650M PG Lightning",
+		"system_family" : "Default string",
+		"system_sku" : "Default string",
+		"type" : "desktop",
+		"vendor" : "ASRock"
+	},
+	"hasProblemList" : []
+}

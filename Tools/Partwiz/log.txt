@@ -1,0 +1,73 @@
+=====================================================================================
+2024-12-17 07:11:56:821 => [                                                    main.cpp, 00138] => OS MajorVer:10 MiniorVer:0 ServicePack:0
+2024-12-17 07:11:56:837 => [                                                    main.cpp, 00139] => System is server:No
+2024-12-17 07:11:56:853 => [                                                    main.cpp, 00140] => Software is 64 bit:Yes
+2024-12-17 07:11:56:853 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2024-12-17 07:11:57:495 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2024-12-17 07:11:57:509 => [                                                 idriver.cpp, 00378] => OpenService failed!  Error = 1060 
+
+2024-12-17 07:11:57:509 => [                                                 idriver.cpp, 00700] => Failed to call ManageDriver(DRIVER_FUNC_START)
+2024-12-17 07:11:57:509 => [                                                 idriver.cpp, 00455] => OpenService failed!  Error = 1060 
+
+2024-12-17 07:11:57:509 => [                                                 idriver.cpp, 00311] => OpenService failed!  Error = 1060 
+
+2024-12-17 07:11:59:872 => [                                    kdpifontstylesetting.cpp, 00114] => SCREEN-WIDTH:1620 SCREEN-HEIGHT:928
+2024-12-17 07:11:59:900 => [                                    kdpifontstylesetting.cpp, 00117] => SCREEN-WIDTH:1620 SCREEN-HEIGHT:865
+2024-12-17 07:12:06:212 => [                                                    main.cpp, 00893] => rcScreen.width=1620, rcScreen.height=928
+2024-12-17 07:12:06:477 => [                                          kvolumemanager.cpp, 00231] => Disk0, VMware Virtual NVMe Disk, CHS:66837,255,63, total sectors: 1073741824, bytes per sector = 512
+2024-12-17 07:12:08:009 => [                                          kvolumemanager.cpp, 00252] => Disk0 => set alignment factor = AlignToMB
+2024-12-17 07:12:08:165 => [                                             dynamicdisk.cpp, 00215] => Disk0 is not a dynamic disk.
+=====================================================================================
+2025-01-24 04:54:42:549 => [                                                    main.cpp, 00138] => OS MajorVer:10 MiniorVer:0 ServicePack:0
+2025-01-24 04:54:42:549 => [                                                    main.cpp, 00139] => System is server:No
+2025-01-24 04:54:42:549 => [                                                    main.cpp, 00140] => Software is 64 bit:Yes
+2025-01-24 04:54:42:549 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2025-01-24 04:54:42:610 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2025-01-24 04:54:42:620 => [                                                 idriver.cpp, 00378] => OpenService failed!  Error = 1060 
+
+2025-01-24 04:54:42:620 => [                                                 idriver.cpp, 00700] => Failed to call ManageDriver(DRIVER_FUNC_START)
+2025-01-24 04:54:42:620 => [                                                 idriver.cpp, 00455] => OpenService failed!  Error = 1060 
+
+2025-01-24 04:54:42:620 => [                                                 idriver.cpp, 00311] => OpenService failed!  Error = 1060 
+
+2025-01-24 04:54:42:671 => [                                    kdpifontstylesetting.cpp, 00114] => SCREEN-WIDTH:2560 SCREEN-HEIGHT:1440
+2025-01-24 04:54:42:671 => [                                    kdpifontstylesetting.cpp, 00117] => SCREEN-WIDTH:2560 SCREEN-HEIGHT:1417
+2025-01-24 04:54:43:120 => [                                                    main.cpp, 00893] => rcScreen.width=2560, rcScreen.height=1440
+2025-01-24 04:54:43:130 => [                                          kvolumemanager.cpp, 00231] => Disk0, SHGP31-500GM, CHS:60801,255,63, total sectors: 976773168, bytes per sector = 512
+2025-01-24 04:54:43:132 => [                                          kvolumemanager.cpp, 00252] => Disk0 => set alignment factor = AlignToMB
+2025-01-24 04:54:43:137 => [                                          kvolumemanager.cpp, 00231] => Disk1, SHGP31-1000GM, CHS:121601,255,63, total sectors: 1953525168, bytes per sector = 512
+2025-01-24 04:54:43:199 => [                                          kvolumemanager.cpp, 00252] => Disk1 => set alignment factor = AlignToMB
+2025-01-24 04:54:43:205 => [                                             dynamicdisk.cpp, 00215] => Disk0 is not a dynamic disk.
+2025-01-24 04:54:43:205 => [                                             dynamicdisk.cpp, 00215] => Disk1 is not a dynamic disk.
+=====================================================================================
+2025-01-24 14:44:24:939 => [                                                    main.cpp, 00138] => OS MajorVer:10 MiniorVer:0 ServicePack:0
+2025-01-24 14:44:24:939 => [                                                    main.cpp, 00139] => System is server:No
+2025-01-24 14:44:24:939 => [                                                    main.cpp, 00140] => Software is 64 bit:Yes
+2025-01-24 14:44:24:939 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2025-01-24 14:44:24:997 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2025-01-24 14:44:25:005 => [                                                 idriver.cpp, 00636] => Failed to copy file :.
+2025-01-24 14:44:25:056 => [                                    kdpifontstylesetting.cpp, 00114] => SCREEN-WIDTH:2560 SCREEN-HEIGHT:1440
+2025-01-24 14:44:25:056 => [                                    kdpifontstylesetting.cpp, 00117] => SCREEN-WIDTH:2560 SCREEN-HEIGHT:1417
+2025-01-24 14:44:25:532 => [                                                    main.cpp, 00893] => rcScreen.width=2560, rcScreen.height=1440
+2025-01-24 14:44:25:550 => [                                          kvolumemanager.cpp, 00231] => Disk0, SHGP31-500GM, CHS:60801,255,63, total sectors: 976773168, bytes per sector = 512
+2025-01-24 14:44:25:558 => [                                          kvolumemanager.cpp, 00252] => Disk0 => set alignment factor = AlignToMB
+2025-01-24 14:44:25:561 => [                                          kvolumemanager.cpp, 00231] => Disk1, SHGP31-1000GM, CHS:121601,255,63, total sectors: 1953525168, bytes per sector = 512
+2025-01-24 14:44:25:622 => [                                          kvolumemanager.cpp, 00252] => Disk1 => set alignment factor = AlignToMB
+2025-01-24 14:44:25:626 => [                                             dynamicdisk.cpp, 00215] => Disk0 is not a dynamic disk.
+2025-01-24 14:44:25:626 => [                                             dynamicdisk.cpp, 00215] => Disk1 is not a dynamic disk.
+=====================================================================================
+2025-01-24 14:44:42:676 => [                                                    main.cpp, 00138] => OS MajorVer:10 MiniorVer:0 ServicePack:0
+2025-01-24 14:44:42:676 => [                                                    main.cpp, 00139] => System is server:No
+2025-01-24 14:44:42:676 => [                                                    main.cpp, 00140] => Software is 64 bit:Yes
+2025-01-24 14:44:42:676 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2025-01-24 14:44:42:726 => [                                                 idriver.cpp, 00613] => Copying 64 bit driver.
+2025-01-24 14:44:42:728 => [                                                 idriver.cpp, 00636] => Failed to copy file :.
+2025-01-24 14:44:42:747 => [                                    kdpifontstylesetting.cpp, 00114] => SCREEN-WIDTH:2560 SCREEN-HEIGHT:1440
+2025-01-24 14:44:42:747 => [                                    kdpifontstylesetting.cpp, 00117] => SCREEN-WIDTH:2560 SCREEN-HEIGHT:1417
+2025-01-24 14:44:43:087 => [                                                    main.cpp, 00893] => rcScreen.width=2560, rcScreen.height=1440
+2025-01-24 14:44:43:105 => [                                          kvolumemanager.cpp, 00231] => Disk0, SHGP31-500GM, CHS:60801,255,63, total sectors: 976773168, bytes per sector = 512
+2025-01-24 14:44:43:106 => [                                          kvolumemanager.cpp, 00252] => Disk0 => set alignment factor = AlignToMB
+2025-01-24 14:44:43:109 => [                                          kvolumemanager.cpp, 00231] => Disk1, SHGP31-1000GM, CHS:121601,255,63, total sectors: 1953525168, bytes per sector = 512
+2025-01-24 14:44:43:170 => [                                          kvolumemanager.cpp, 00252] => Disk1 => set alignment factor = AlignToMB
+2025-01-24 14:44:43:174 => [                                             dynamicdisk.cpp, 00215] => Disk0 is not a dynamic disk.
+2025-01-24 14:44:43:174 => [                                             dynamicdisk.cpp, 00215] => Disk1 is not a dynamic disk.

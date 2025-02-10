@@ -1,0 +1,16 @@
+﻿[2025-01-24 15:04:05.895] [info   ] [sw_updater ] [30652:12988] [98DA86:  96] asw::su_controller::detail::SUControllerModule::OnScanStateUpdated
+[2025-01-24 15:04:05.895] [info   ] [sw_updater ] [30652:12988] [98DA86:  96] asw::su_controller::detail::SUControllerModule::OnDetectionsUpdated
+[2025-01-24 15:04:05.895] [info   ] [sw_updater ] [30652:12988] [98DA86: 105] asw::su_controller::detail::SUControllerModule::StartScan:S-1-5-21-1607690068-361556231-1195212403-1012,Nothing,Manual,,nullopt
+[2025-01-24 15:04:10.442] [info   ] [sw_updater ] [30652:12988] [98DA86: 105] asw::su_controller::detail::SUControllerModule::CancelScan:S-1-5-21-1607690068-361556231-1195212403-1012
+[2025-01-24 15:04:32.081] [info   ] [sw_updater ] [28060:28656] [98DA86:  96] asw::su_controller::detail::SUControllerModule::OnScanStateUpdated
+[2025-01-24 15:04:32.081] [info   ] [sw_updater ] [28060:28656] [98DA86:  96] asw::su_controller::detail::SUControllerModule::OnDetectionsUpdated
+[2025-01-24 15:04:32.081] [info   ] [sw_updater ] [28060:28656] [98DA86: 105] asw::su_controller::detail::SUControllerModule::StartScan:S-1-5-21-1607690068-361556231-1195212403-1012,Nothing,Manual,,nullopt
+[2025-01-24 15:04:34.638] [info   ] [sw_updater ] [28060:28656] [98DA86: 105] asw::su_controller::detail::SUControllerModule::CancelScan:S-1-5-21-1607690068-361556231-1195212403-1012
+[2025-01-24 15:04:58.209] [info   ] [sw_updater ] [32460:31256] [98DA86:  96] asw::su_controller::detail::SUControllerModule::OnScanStateUpdated
+[2025-01-24 15:04:58.209] [info   ] [sw_updater ] [32460:31256] [98DA86:  96] asw::su_controller::detail::SUControllerModule::OnDetectionsUpdated
+[2025-01-24 15:04:58.209] [info   ] [sw_updater ] [32460:31256] [98DA86: 105] asw::su_controller::detail::SUControllerModule::StartScan:S-1-5-21-1607690068-361556231-1195212403-1012,Nothing,Manual,,nullopt
+[2025-01-24 15:05:02.381] [info   ] [sw_updater ] [32460:31256] [98DA86: 105] asw::su_controller::detail::SUControllerModule::CancelScan:S-1-5-21-1607690068-361556231-1195212403-1012
+[2025-01-24 15:05:30.970] [info   ] [sw_updater ] [19168:19000] [98DA86:  96] asw::su_controller::detail::SUControllerModule::OnScanStateUpdated
+[2025-01-24 15:05:30.970] [info   ] [sw_updater ] [19168:19000] [98DA86:  96] asw::su_controller::detail::SUControllerModule::OnDetectionsUpdated
+[2025-01-24 15:05:30.970] [info   ] [sw_updater ] [19168:19000] [98DA86: 105] asw::su_controller::detail::SUControllerModule::StartScan:S-1-5-21-1607690068-361556231-1195212403-1012,Nothing,Manual,,nullopt
+[2025-01-24 15:05:32.607] [info   ] [sw_updater ] [19168:19000] [98DA86: 105] asw::su_controller::detail::SUControllerModule::CancelScan:S-1-5-21-1607690068-361556231-1195212403-1012

@@ -1,0 +1,211 @@
+﻿[2025-01-24 03:23:57.609] [info   ] [settings   ] [25552: 3560] [627B29: 405] paths.ini_store configuration is empty, settings ini store folder to asw::instup::GetDataDirectory.
+[2025-01-24 03:23:57.610] [info   ] [files      ] [25552: 3560] [1FEA5F: 221] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\\Setup started
+[2025-01-24 03:23:57.610] [warning] [ini_access ] [25552: 3560] [BB8D78: 187] failed to read ini file D:\KDY's Ultimate windows repair tool\Tools\cclean\usercfg.ini
+                                                                              Exception: couldn't open file
+                                                                              Code: 0x00000002 (2)
+[2025-01-24 03:23:57.611] [info   ] [files      ] [25552: 3560] [1FEA5F: 221] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean started
+[2025-01-24 03:23:57.613] [info   ] [files      ] [25552: 3560] [1FEA5F: 141] watch task termination for D:\KDY's Ultimate windows repair tool\Tools\cclean requested
+[2025-01-24 03:23:57.613] [info   ] [files      ] [25552: 3560] [1FEA5F: 157] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean gracefully terminated
+[2025-01-24 03:23:57.613] [info   ] [files      ] [25552: 3560] [1FEA5F: 221] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup started
+[2025-01-24 03:23:57.613] [info   ] [files      ] [25552: 3560] [1FEA5F: 141] watch task termination for D:\KDY's Ultimate windows repair tool\Tools\cclean\\Setup requested
+[2025-01-24 03:23:57.613] [info   ] [files      ] [25552: 3560] [1FEA5F: 157] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\\Setup gracefully terminated
+[2025-01-24 03:23:57.614] [warning] [ini_access ] [25552: 3560] [BB8D78: 187] failed to read ini file D:\KDY's Ultimate windows repair tool\Tools\cclean\Data\settings.ini
+                                                                              Exception: couldn't open file
+                                                                              Code: 0x00000002 (2)
+[2025-01-24 03:23:57.614] [info   ] [files      ] [25552: 3560] [1FEA5F: 221] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\Data started
+[2025-01-24 03:23:57.615] [warning] [ini_access ] [25552: 3560] [BB8D78: 187] failed to read ini file D:\KDY's Ultimate windows repair tool\Tools\cclean\Data\usercfg.ini
+                                                                              Exception: couldn't open file
+                                                                              Code: 0x00000002 (2)
+[2025-01-24 03:23:57.621] [info   ] [lic_setting] [25552: 3560] [B911B4: 203] ~paxfX5XYL4nS4qgr/hhK16uxDWDc2CWJx+KhOawKW8yyukUzv/ge3YHoqiOrD0zKs7oacIiJZITC56MtsA5di767Ej/c+AWr8bHmL60KXIu+txN2ndUvlY/oqSE=
+[2025-01-24 03:23:57.631] [error  ] [device_id  ] [25552: 3560] [81CB0D: 264] Load source data failed
+                                                                              Exception: Failed to decrypt data
+                                                                              Code: 0x0000000d (13)
+[2025-01-24 03:23:57.631] [info   ] [device_id  ] [25552: 3560] [81CB0D: 118] Fingerprint source data changed to much, update it.
+[2025-01-24 03:23:57.632] [warning] [Burger     ] [25552: 3560] [5ED5E0: 178] [24.2.5585.0] [BurgerReporter.cpp] [178] asw::standalone_svc::BurgerReporter::RegisterRPC: Could not get RPC.
+[2025-01-24 03:23:57.632] [error  ] [Burger     ] [25552: 3560] [5ED5E0: 258] [24.2.5585.0] [BurgerReporter.cpp] [258] asw::standalone_svc::BurgerReporter::BurgerSwitch: Could not read property BURGER_SETTINGS_PANCAKE_HOSTNAME (0x00000003)
+[2025-01-24 03:23:57.632] [warning] [Burger     ] [25552: 3560] [5ED5E0: 261] [24.2.5585.0] [BurgerReporter.cpp] [261] asw::standalone_svc::BurgerReporter::BurgerSwitch: Analytics (Burger.v4) disabled (hostname: )
+[2025-01-24 03:23:57.632] [error  ] [Burger     ] [25552: 3560] [5ED5E0: 258] [24.2.5585.0] [BurgerReporter.cpp] [258] asw::standalone_svc::BurgerReporter::BurgerSwitch: Could not read property BURGER_SETTINGS_PANCAKE_HOSTNAME (0x00000003)
+[2025-01-24 03:23:57.632] [warning] [Burger     ] [25552: 3560] [5ED5E0: 261] [24.2.5585.0] [BurgerReporter.cpp] [261] asw::standalone_svc::BurgerReporter::BurgerSwitch: Analytics (Burger.v4) disabled (hostname: )
+[2025-01-24 03:23:57.632] [warning] [Burger     ] [25552: 3560] [5ED5E0: 285] [24.2.5585.0] [BurgerReporter.cpp] [285] asw::standalone_svc::BurgerReporter::GASwitch: Property GDPR_THIRD_PARTY_ANALYTICS_ENABLED not found, set default value
+[2025-01-24 03:23:57.633] [warning] [Burger     ] [25552: 3560] [5ED5E0: 178] [24.2.5585.0] [BurgerReporter.cpp] [178] asw::standalone_svc::BurgerReporter::RegisterRPC: Could not get RPC.
+[2025-01-24 03:23:57.649] [warning] [files      ] [25552: 9328] [1FEA5F: 255] D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup overlapped IO failed, error: 995.
+[2025-01-24 03:24:35.269] [warning] [ini_access ] [25552:21572] [BB8D78: 187] failed to read ini file D:\KDY's Ultimate windows repair tool\Tools\cclean\Data\burger_client.ini
+                                                                              Exception: couldn't open file
+                                                                              Code: 0x00000002 (2)
+[2025-01-24 03:24:35.395] [info   ] [files      ] [25552:12996] [1FEA5F: 141] watch task termination for D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup requested
+[2025-01-24 03:24:35.395] [info   ] [files      ] [25552:12996] [1FEA5F: 157] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup gracefully terminated
+[2025-01-24 03:24:35.395] [info   ] [files      ] [25552:12996] [1FEA5F: 141] watch task termination for D:\KDY's Ultimate windows repair tool\Tools\cclean\Data requested
+[2025-01-24 03:24:35.395] [info   ] [files      ] [25552:12996] [1FEA5F: 157] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\Data gracefully terminated
+[2025-01-24 03:24:35.511] [info   ] [log_module ] [25552:12996] [6E04AA:  31] LogModule is going to be destroyed.
+[2025-01-24 03:24:35.511] [info   ] [log_module ] [25552:12996] [6E04AA:  32] =====================================================================================================================
+[2025-01-24 15:04:05.565] [info   ] [settings   ] [30652:13428] [627B29: 405] paths.ini_store configuration is empty, settings ini store folder to asw::instup::GetDataDirectory.
+[2025-01-24 15:04:05.567] [info   ] [files      ] [30652:13428] [1FEA5F: 221] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\\Setup started
+[2025-01-24 15:04:05.567] [warning] [ini_access ] [30652:13428] [BB8D78: 187] failed to read ini file D:\KDY's Ultimate windows repair tool\Tools\cclean\usercfg.ini
+                                                                              Exception: couldn't open file
+                                                                              Code: 0x00000002 (2)
+[2025-01-24 15:04:05.568] [info   ] [files      ] [30652:13428] [1FEA5F: 221] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean started
+[2025-01-24 15:04:05.568] [info   ] [files      ] [30652:13428] [1FEA5F: 141] watch task termination for D:\KDY's Ultimate windows repair tool\Tools\cclean requested
+[2025-01-24 15:04:05.568] [info   ] [files      ] [30652:13428] [1FEA5F: 157] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean gracefully terminated
+[2025-01-24 15:04:05.569] [info   ] [files      ] [30652:13428] [1FEA5F: 221] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup started
+[2025-01-24 15:04:05.569] [info   ] [files      ] [30652:13428] [1FEA5F: 141] watch task termination for D:\KDY's Ultimate windows repair tool\Tools\cclean\\Setup requested
+[2025-01-24 15:04:05.569] [info   ] [files      ] [30652:13428] [1FEA5F: 157] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\\Setup gracefully terminated
+[2025-01-24 15:04:05.569] [warning] [ini_access ] [30652:13428] [BB8D78: 187] failed to read ini file D:\KDY's Ultimate windows repair tool\Tools\cclean\Data\settings.ini
+                                                                              Exception: couldn't open file
+                                                                              Code: 0x00000002 (2)
+[2025-01-24 15:04:05.569] [info   ] [files      ] [30652:13428] [1FEA5F: 221] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\Data started
+[2025-01-24 15:04:05.576] [info   ] [lic_setting] [30652:13428] [B911B4: 203] ~rfQzep/eJJTI5aFsrQ5d07imDDOf1CSByOyzPr8fRsqz7l9Qv+9wx8LnqTm6CEDLs7EcZ86VKYTN7qciuxkBxrK5UzO/9Aa3m6ulP78YAca+uBpykt44ycLkqw==
+[2025-01-24 15:04:05.581] [warning] [Burger     ] [30652:13428] [5ED5E0: 178] [24.2.5585.0] [BurgerReporter.cpp] [178] asw::standalone_svc::BurgerReporter::RegisterRPC: Could not get RPC.
+[2025-01-24 15:04:05.581] [error  ] [Burger     ] [30652:13428] [5ED5E0: 258] [24.2.5585.0] [BurgerReporter.cpp] [258] asw::standalone_svc::BurgerReporter::BurgerSwitch: Could not read property BURGER_SETTINGS_PANCAKE_HOSTNAME (0x00000003)
+[2025-01-24 15:04:05.581] [warning] [Burger     ] [30652:13428] [5ED5E0: 261] [24.2.5585.0] [BurgerReporter.cpp] [261] asw::standalone_svc::BurgerReporter::BurgerSwitch: Analytics (Burger.v4) disabled (hostname: )
+[2025-01-24 15:04:05.581] [error  ] [Burger     ] [30652:13428] [5ED5E0: 258] [24.2.5585.0] [BurgerReporter.cpp] [258] asw::standalone_svc::BurgerReporter::BurgerSwitch: Could not read property BURGER_SETTINGS_PANCAKE_HOSTNAME (0x00000003)
+[2025-01-24 15:04:05.581] [warning] [Burger     ] [30652:13428] [5ED5E0: 261] [24.2.5585.0] [BurgerReporter.cpp] [261] asw::standalone_svc::BurgerReporter::BurgerSwitch: Analytics (Burger.v4) disabled (hostname: )
+[2025-01-24 15:04:05.581] [warning] [Burger     ] [30652:13428] [5ED5E0: 178] [24.2.5585.0] [BurgerReporter.cpp] [178] asw::standalone_svc::BurgerReporter::RegisterRPC: Could not get RPC.
+[2025-01-24 15:04:05.611] [warning] [files      ] [30652:28152] [1FEA5F: 255] D:\KDY's Ultimate windows repair tool\Tools\cclean\Data overlapped IO failed, error: 995.
+[2025-01-24 15:04:05.611] [warning] [files      ] [30652:19912] [1FEA5F: 255] D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup overlapped IO failed, error: 995.
+[2025-01-24 15:04:31.586] [warning] [ini_access ] [30652:18672] [BB8D78: 520] detected file D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup\config.def as deleted or renamed
+[2025-01-24 15:04:31.587] [warning] [ini_access ] [30652: 1272] [BB8D78: 520] detected file D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup\config.def as deleted or renamed
+[2025-01-24 15:04:31.818] [info   ] [settings   ] [28060: 2384] [627B29: 405] paths.ini_store configuration is empty, settings ini store folder to asw::instup::GetDataDirectory.
+[2025-01-24 15:04:31.819] [info   ] [files      ] [28060: 2384] [1FEA5F: 221] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\\Setup started
+[2025-01-24 15:04:31.820] [warning] [ini_access ] [28060: 2384] [BB8D78: 187] failed to read ini file D:\KDY's Ultimate windows repair tool\Tools\cclean\usercfg.ini
+                                                                              Exception: couldn't open file
+                                                                              Code: 0x00000002 (2)
+[2025-01-24 15:04:31.820] [info   ] [files      ] [28060: 2384] [1FEA5F: 221] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean started
+[2025-01-24 15:04:31.821] [info   ] [files      ] [28060: 2384] [1FEA5F: 141] watch task termination for D:\KDY's Ultimate windows repair tool\Tools\cclean requested
+[2025-01-24 15:04:31.821] [info   ] [files      ] [28060: 2384] [1FEA5F: 157] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean gracefully terminated
+[2025-01-24 15:04:31.821] [info   ] [files      ] [28060: 2384] [1FEA5F: 221] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup started
+[2025-01-24 15:04:31.821] [info   ] [files      ] [28060: 2384] [1FEA5F: 141] watch task termination for D:\KDY's Ultimate windows repair tool\Tools\cclean\\Setup requested
+[2025-01-24 15:04:31.821] [info   ] [files      ] [28060: 2384] [1FEA5F: 157] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\\Setup gracefully terminated
+[2025-01-24 15:04:31.821] [warning] [ini_access ] [28060: 2384] [BB8D78: 187] failed to read ini file D:\KDY's Ultimate windows repair tool\Tools\cclean\Data\settings.ini
+                                                                              Exception: couldn't open file
+                                                                              Code: 0x00000002 (2)
+[2025-01-24 15:04:31.822] [info   ] [files      ] [28060: 2384] [1FEA5F: 221] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\Data started
+[2025-01-24 15:04:31.828] [info   ] [lic_setting] [28060: 2384] [B911B4: 203] ~rPQzep/eJJTI5aFsrQ5d07imDDOf1CSByOyzPr8fRsqz7l9Qv+9wx8LnqTm6CEDLs7EcZ86VKYTN7qciuxkBxrK5UzO/9Aa3m6ulP78YAca+uBpykt44ycLkqw==
+[2025-01-24 15:04:31.833] [warning] [Burger     ] [28060: 2384] [5ED5E0: 178] [24.2.5585.0] [BurgerReporter.cpp] [178] asw::standalone_svc::BurgerReporter::RegisterRPC: Could not get RPC.
+[2025-01-24 15:04:31.833] [error  ] [Burger     ] [28060: 2384] [5ED5E0: 258] [24.2.5585.0] [BurgerReporter.cpp] [258] asw::standalone_svc::BurgerReporter::BurgerSwitch: Could not read property BURGER_SETTINGS_PANCAKE_HOSTNAME (0x00000003)
+[2025-01-24 15:04:31.833] [warning] [Burger     ] [28060: 2384] [5ED5E0: 261] [24.2.5585.0] [BurgerReporter.cpp] [261] asw::standalone_svc::BurgerReporter::BurgerSwitch: Analytics (Burger.v4) disabled (hostname: )
+[2025-01-24 15:04:31.833] [error  ] [Burger     ] [28060: 2384] [5ED5E0: 258] [24.2.5585.0] [BurgerReporter.cpp] [258] asw::standalone_svc::BurgerReporter::BurgerSwitch: Could not read property BURGER_SETTINGS_PANCAKE_HOSTNAME (0x00000003)
+[2025-01-24 15:04:31.833] [warning] [Burger     ] [28060: 2384] [5ED5E0: 261] [24.2.5585.0] [BurgerReporter.cpp] [261] asw::standalone_svc::BurgerReporter::BurgerSwitch: Analytics (Burger.v4) disabled (hostname: )
+[2025-01-24 15:04:31.833] [warning] [Burger     ] [28060: 2384] [5ED5E0: 178] [24.2.5585.0] [BurgerReporter.cpp] [178] asw::standalone_svc::BurgerReporter::RegisterRPC: Could not get RPC.
+[2025-01-24 15:04:31.862] [warning] [files      ] [28060:31272] [1FEA5F: 255] D:\KDY's Ultimate windows repair tool\Tools\cclean\Data overlapped IO failed, error: 995.
+[2025-01-24 15:04:31.862] [warning] [files      ] [28060:16896] [1FEA5F: 255] D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup overlapped IO failed, error: 995.
+[2025-01-24 15:04:42.819] [warning] [ini_access ] [30652:18672] [BB8D78: 187] failed to read ini file D:\KDY's Ultimate windows repair tool\Tools\cclean\Data\burger_client.ini
+                                                                              Exception: couldn't open file
+                                                                              Code: 0x00000002 (2)
+[2025-01-24 15:04:42.826] [info   ] [files      ] [30652:12988] [1FEA5F: 141] watch task termination for D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup requested
+[2025-01-24 15:04:42.826] [info   ] [files      ] [30652:12988] [1FEA5F: 157] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup gracefully terminated
+[2025-01-24 15:04:42.826] [info   ] [files      ] [30652:12988] [1FEA5F: 141] watch task termination for D:\KDY's Ultimate windows repair tool\Tools\cclean\Data requested
+[2025-01-24 15:04:42.826] [info   ] [files      ] [30652:12988] [1FEA5F: 157] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\Data gracefully terminated
+[2025-01-24 15:04:42.936] [info   ] [log_module ] [30652:12988] [6E04AA:  31] LogModule is going to be destroyed.
+[2025-01-24 15:04:42.936] [info   ] [log_module ] [30652:12988] [6E04AA:  32] =====================================================================================================================
+[2025-01-24 15:04:57.707] [warning] [ini_access ] [28060:20272] [BB8D78: 520] detected file D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup\config.def as deleted or renamed
+[2025-01-24 15:04:57.707] [warning] [ini_access ] [28060:17424] [BB8D78: 520] detected file D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup\config.def as deleted or renamed
+[2025-01-24 15:04:57.937] [info   ] [settings   ] [32460:22072] [627B29: 405] paths.ini_store configuration is empty, settings ini store folder to asw::instup::GetDataDirectory.
+[2025-01-24 15:04:57.938] [info   ] [files      ] [32460:22072] [1FEA5F: 221] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\\Setup started
+[2025-01-24 15:04:57.938] [warning] [ini_access ] [32460:22072] [BB8D78: 187] failed to read ini file D:\KDY's Ultimate windows repair tool\Tools\cclean\usercfg.ini
+                                                                              Exception: couldn't open file
+                                                                              Code: 0x00000002 (2)
+[2025-01-24 15:04:57.938] [info   ] [files      ] [32460:22072] [1FEA5F: 221] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean started
+[2025-01-24 15:04:57.939] [info   ] [files      ] [32460:22072] [1FEA5F: 141] watch task termination for D:\KDY's Ultimate windows repair tool\Tools\cclean requested
+[2025-01-24 15:04:57.939] [info   ] [files      ] [32460:22072] [1FEA5F: 157] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean gracefully terminated
+[2025-01-24 15:04:57.939] [info   ] [files      ] [32460:22072] [1FEA5F: 221] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup started
+[2025-01-24 15:04:57.939] [info   ] [files      ] [32460:22072] [1FEA5F: 141] watch task termination for D:\KDY's Ultimate windows repair tool\Tools\cclean\\Setup requested
+[2025-01-24 15:04:57.939] [info   ] [files      ] [32460:22072] [1FEA5F: 157] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\\Setup gracefully terminated
+[2025-01-24 15:04:57.939] [warning] [ini_access ] [32460:22072] [BB8D78: 187] failed to read ini file D:\KDY's Ultimate windows repair tool\Tools\cclean\Data\settings.ini
+                                                                              Exception: couldn't open file
+                                                                              Code: 0x00000002 (2)
+[2025-01-24 15:04:57.939] [info   ] [files      ] [32460:22072] [1FEA5F: 221] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\Data started
+[2025-01-24 15:04:57.945] [info   ] [lic_setting] [32460:22072] [B911B4: 203] ~qvQzep/eJJTI5aFsrQ5d07imDDOf1CSByOyzPr8fRsqz7l9Qv+9wx8LnqTm6CEDLs7EcZ86VKYTN7qciuxkBxrK5UzO/9Aa3m6ulP78YAca+uBpykt44ycLkqw==
+[2025-01-24 15:04:57.951] [warning] [Burger     ] [32460:22072] [5ED5E0: 178] [24.2.5585.0] [BurgerReporter.cpp] [178] asw::standalone_svc::BurgerReporter::RegisterRPC: Could not get RPC.
+[2025-01-24 15:04:57.951] [error  ] [Burger     ] [32460:22072] [5ED5E0: 258] [24.2.5585.0] [BurgerReporter.cpp] [258] asw::standalone_svc::BurgerReporter::BurgerSwitch: Could not read property BURGER_SETTINGS_PANCAKE_HOSTNAME (0x00000003)
+[2025-01-24 15:04:57.951] [warning] [Burger     ] [32460:22072] [5ED5E0: 261] [24.2.5585.0] [BurgerReporter.cpp] [261] asw::standalone_svc::BurgerReporter::BurgerSwitch: Analytics (Burger.v4) disabled (hostname: )
+[2025-01-24 15:04:57.951] [error  ] [Burger     ] [32460:22072] [5ED5E0: 258] [24.2.5585.0] [BurgerReporter.cpp] [258] asw::standalone_svc::BurgerReporter::BurgerSwitch: Could not read property BURGER_SETTINGS_PANCAKE_HOSTNAME (0x00000003)
+[2025-01-24 15:04:57.951] [warning] [Burger     ] [32460:22072] [5ED5E0: 261] [24.2.5585.0] [BurgerReporter.cpp] [261] asw::standalone_svc::BurgerReporter::BurgerSwitch: Analytics (Burger.v4) disabled (hostname: )
+[2025-01-24 15:04:57.951] [warning] [Burger     ] [32460:22072] [5ED5E0: 178] [24.2.5585.0] [BurgerReporter.cpp] [178] asw::standalone_svc::BurgerReporter::RegisterRPC: Could not get RPC.
+[2025-01-24 15:04:57.976] [warning] [files      ] [32460: 6288] [1FEA5F: 255] D:\KDY's Ultimate windows repair tool\Tools\cclean\Data overlapped IO failed, error: 995.
+[2025-01-24 15:04:57.976] [warning] [files      ] [32460:26716] [1FEA5F: 255] D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup overlapped IO failed, error: 995.
+[2025-01-24 15:05:06.841] [warning] [ini_access ] [28060:20272] [BB8D78: 187] failed to read ini file D:\KDY's Ultimate windows repair tool\Tools\cclean\Data\burger_client.ini
+                                                                              Exception: couldn't open file
+                                                                              Code: 0x00000002 (2)
+[2025-01-24 15:05:06.849] [info   ] [files      ] [28060:28656] [1FEA5F: 141] watch task termination for D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup requested
+[2025-01-24 15:05:06.849] [info   ] [files      ] [28060:28656] [1FEA5F: 157] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup gracefully terminated
+[2025-01-24 15:05:06.849] [info   ] [files      ] [28060:28656] [1FEA5F: 141] watch task termination for D:\KDY's Ultimate windows repair tool\Tools\cclean\Data requested
+[2025-01-24 15:05:06.849] [info   ] [files      ] [28060:28656] [1FEA5F: 157] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\Data gracefully terminated
+[2025-01-24 15:05:06.959] [info   ] [log_module ] [28060:28656] [6E04AA:  31] LogModule is going to be destroyed.
+[2025-01-24 15:05:06.959] [info   ] [log_module ] [28060:28656] [6E04AA:  32] =====================================================================================================================
+[2025-01-24 15:05:30.467] [warning] [ini_access ] [32460:26904] [BB8D78: 520] detected file D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup\config.def as deleted or renamed
+[2025-01-24 15:05:30.467] [warning] [ini_access ] [32460:18732] [BB8D78: 520] detected file D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup\config.def as deleted or renamed
+[2025-01-24 15:05:30.700] [info   ] [settings   ] [19168:18688] [627B29: 405] paths.ini_store configuration is empty, settings ini store folder to asw::instup::GetDataDirectory.
+[2025-01-24 15:05:30.700] [info   ] [files      ] [19168:18688] [1FEA5F: 221] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\\Setup started
+[2025-01-24 15:05:30.701] [warning] [ini_access ] [19168:18688] [BB8D78: 187] failed to read ini file D:\KDY's Ultimate windows repair tool\Tools\cclean\usercfg.ini
+                                                                              Exception: couldn't open file
+                                                                              Code: 0x00000002 (2)
+[2025-01-24 15:05:30.701] [info   ] [files      ] [19168:18688] [1FEA5F: 221] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean started
+[2025-01-24 15:05:30.702] [info   ] [files      ] [19168:18688] [1FEA5F: 141] watch task termination for D:\KDY's Ultimate windows repair tool\Tools\cclean requested
+[2025-01-24 15:05:30.702] [info   ] [files      ] [19168:18688] [1FEA5F: 157] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean gracefully terminated
+[2025-01-24 15:05:30.702] [info   ] [files      ] [19168:18688] [1FEA5F: 221] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup started
+[2025-01-24 15:05:30.702] [info   ] [files      ] [19168:18688] [1FEA5F: 141] watch task termination for D:\KDY's Ultimate windows repair tool\Tools\cclean\\Setup requested
+[2025-01-24 15:05:30.702] [info   ] [files      ] [19168:18688] [1FEA5F: 157] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\\Setup gracefully terminated
+[2025-01-24 15:05:30.702] [warning] [ini_access ] [19168:18688] [BB8D78: 187] failed to read ini file D:\KDY's Ultimate windows repair tool\Tools\cclean\Data\settings.ini
+                                                                              Exception: couldn't open file
+                                                                              Code: 0x00000002 (2)
+[2025-01-24 15:05:30.702] [info   ] [files      ] [19168:18688] [1FEA5F: 221] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\Data started
+[2025-01-24 15:05:30.708] [info   ] [lic_setting] [19168:18688] [B911B4: 203] ~uKNfX5XYL4nS4qgr/hhK16uxDWDc2CWJx+KhOawKW8yyukUzv/ge3YHoqiOrD0zKs7oacIiJZITC56MtsA5di767Ej/c+AWr8bHmL60KXIu+txN2ndUvlY/oqSE=
+[2025-01-24 15:05:30.714] [warning] [Burger     ] [19168:18688] [5ED5E0: 178] [24.2.5585.0] [BurgerReporter.cpp] [178] asw::standalone_svc::BurgerReporter::RegisterRPC: Could not get RPC.
+[2025-01-24 15:05:30.714] [error  ] [Burger     ] [19168:18688] [5ED5E0: 258] [24.2.5585.0] [BurgerReporter.cpp] [258] asw::standalone_svc::BurgerReporter::BurgerSwitch: Could not read property BURGER_SETTINGS_PANCAKE_HOSTNAME (0x00000003)
+[2025-01-24 15:05:30.714] [warning] [Burger     ] [19168:18688] [5ED5E0: 261] [24.2.5585.0] [BurgerReporter.cpp] [261] asw::standalone_svc::BurgerReporter::BurgerSwitch: Analytics (Burger.v4) disabled (hostname: )
+[2025-01-24 15:05:30.714] [error  ] [Burger     ] [19168:18688] [5ED5E0: 258] [24.2.5585.0] [BurgerReporter.cpp] [258] asw::standalone_svc::BurgerReporter::BurgerSwitch: Could not read property BURGER_SETTINGS_PANCAKE_HOSTNAME (0x00000003)
+[2025-01-24 15:05:30.714] [warning] [Burger     ] [19168:18688] [5ED5E0: 261] [24.2.5585.0] [BurgerReporter.cpp] [261] asw::standalone_svc::BurgerReporter::BurgerSwitch: Analytics (Burger.v4) disabled (hostname: )
+[2025-01-24 15:05:30.714] [warning] [Burger     ] [19168:18688] [5ED5E0: 178] [24.2.5585.0] [BurgerReporter.cpp] [178] asw::standalone_svc::BurgerReporter::RegisterRPC: Could not get RPC.
+[2025-01-24 15:05:30.739] [warning] [files      ] [19168:18944] [1FEA5F: 255] D:\KDY's Ultimate windows repair tool\Tools\cclean\Data overlapped IO failed, error: 995.
+[2025-01-24 15:05:30.739] [warning] [files      ] [19168:14152] [1FEA5F: 255] D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup overlapped IO failed, error: 995.
+[2025-01-24 15:05:34.532] [warning] [ini_access ] [32460:26904] [BB8D78: 187] failed to read ini file D:\KDY's Ultimate windows repair tool\Tools\cclean\Data\burger_client.ini
+                                                                              Exception: couldn't open file
+                                                                              Code: 0x00000002 (2)
+[2025-01-24 15:05:34.541] [info   ] [files      ] [32460:31256] [1FEA5F: 141] watch task termination for D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup requested
+[2025-01-24 15:05:34.541] [info   ] [files      ] [32460:31256] [1FEA5F: 157] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup gracefully terminated
+[2025-01-24 15:05:34.541] [info   ] [files      ] [32460:31256] [1FEA5F: 141] watch task termination for D:\KDY's Ultimate windows repair tool\Tools\cclean\Data requested
+[2025-01-24 15:05:34.541] [info   ] [files      ] [32460:31256] [1FEA5F: 157] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\Data gracefully terminated
+[2025-01-24 15:05:34.649] [info   ] [log_module ] [32460:31256] [6E04AA:  31] LogModule is going to be destroyed.
+[2025-01-24 15:05:34.649] [info   ] [log_module ] [32460:31256] [6E04AA:  32] =====================================================================================================================
+[2025-01-24 15:06:05.423] [warning] [ini_access ] [19168:31440] [BB8D78: 187] failed to read ini file D:\KDY's Ultimate windows repair tool\Tools\cclean\Data\burger_client.ini
+                                                                              Exception: couldn't open file
+                                                                              Code: 0x00000002 (2)
+[2025-01-24 15:06:05.430] [info   ] [files      ] [19168:19000] [1FEA5F: 141] watch task termination for D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup requested
+[2025-01-24 15:06:05.430] [info   ] [files      ] [19168:19000] [1FEA5F: 157] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup gracefully terminated
+[2025-01-24 15:06:05.430] [info   ] [files      ] [19168:19000] [1FEA5F: 141] watch task termination for D:\KDY's Ultimate windows repair tool\Tools\cclean\Data requested
+[2025-01-24 15:06:05.430] [info   ] [files      ] [19168:19000] [1FEA5F: 157] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\Data gracefully terminated
+[2025-01-24 15:06:05.542] [info   ] [log_module ] [19168:19000] [6E04AA:  31] LogModule is going to be destroyed.
+[2025-01-24 15:06:05.542] [info   ] [log_module ] [19168:19000] [6E04AA:  32] =====================================================================================================================
+[2025-01-24 15:07:19.960] [info   ] [settings   ] [ 1968:32992] [627B29: 405] paths.ini_store configuration is empty, settings ini store folder to asw::instup::GetDataDirectory.
+[2025-01-24 15:07:19.962] [info   ] [files      ] [ 1968:32992] [1FEA5F: 221] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\\Setup started
+[2025-01-24 15:07:19.963] [warning] [ini_access ] [ 1968:32992] [BB8D78: 187] failed to read ini file D:\KDY's Ultimate windows repair tool\Tools\cclean\usercfg.ini
+                                                                              Exception: couldn't open file
+                                                                              Code: 0x00000002 (2)
+[2025-01-24 15:07:19.963] [info   ] [files      ] [ 1968:32992] [1FEA5F: 221] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean started
+[2025-01-24 15:07:19.964] [info   ] [files      ] [ 1968:32992] [1FEA5F: 141] watch task termination for D:\KDY's Ultimate windows repair tool\Tools\cclean requested
+[2025-01-24 15:07:19.964] [info   ] [files      ] [ 1968:32992] [1FEA5F: 157] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean gracefully terminated
+[2025-01-24 15:07:19.964] [info   ] [files      ] [ 1968:32992] [1FEA5F: 221] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup started
+[2025-01-24 15:07:19.964] [info   ] [files      ] [ 1968:32992] [1FEA5F: 141] watch task termination for D:\KDY's Ultimate windows repair tool\Tools\cclean\\Setup requested
+[2025-01-24 15:07:19.964] [info   ] [files      ] [ 1968:32992] [1FEA5F: 157] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\\Setup gracefully terminated
+[2025-01-24 15:07:19.964] [warning] [ini_access ] [ 1968:32992] [BB8D78: 187] failed to read ini file D:\KDY's Ultimate windows repair tool\Tools\cclean\Data\settings.ini
+                                                                              Exception: couldn't open file
+                                                                              Code: 0x00000002 (2)
+[2025-01-24 15:07:19.964] [info   ] [files      ] [ 1968:32992] [1FEA5F: 221] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\Data started
+[2025-01-24 15:07:19.970] [info   ] [lic_setting] [ 1968:32992] [B911B4: 203] ~qbsNM7DSKYLP+K8iuUtcwK+iGmGPmymIz+2vK6sZTtG0uxEp3PgJs5urpSCxHkvGsroRdp/PeMnC6KopvwVK1/O3EH7Qmwmo7dv8bL0YTtbztxx/mdokgtOlpSOz
+[2025-01-24 15:07:19.975] [warning] [Burger     ] [ 1968:32992] [5ED5E0: 178] [24.2.5585.0] [BurgerReporter.cpp] [178] asw::standalone_svc::BurgerReporter::RegisterRPC: Could not get RPC.
+[2025-01-24 15:07:19.975] [error  ] [Burger     ] [ 1968:32992] [5ED5E0: 258] [24.2.5585.0] [BurgerReporter.cpp] [258] asw::standalone_svc::BurgerReporter::BurgerSwitch: Could not read property BURGER_SETTINGS_PANCAKE_HOSTNAME (0x00000003)
+[2025-01-24 15:07:19.975] [warning] [Burger     ] [ 1968:32992] [5ED5E0: 261] [24.2.5585.0] [BurgerReporter.cpp] [261] asw::standalone_svc::BurgerReporter::BurgerSwitch: Analytics (Burger.v4) disabled (hostname: )
+[2025-01-24 15:07:19.975] [error  ] [Burger     ] [ 1968:32992] [5ED5E0: 258] [24.2.5585.0] [BurgerReporter.cpp] [258] asw::standalone_svc::BurgerReporter::BurgerSwitch: Could not read property BURGER_SETTINGS_PANCAKE_HOSTNAME (0x00000003)
+[2025-01-24 15:07:19.975] [warning] [Burger     ] [ 1968:32992] [5ED5E0: 261] [24.2.5585.0] [BurgerReporter.cpp] [261] asw::standalone_svc::BurgerReporter::BurgerSwitch: Analytics (Burger.v4) disabled (hostname: )
+[2025-01-24 15:07:19.975] [warning] [Burger     ] [ 1968:32992] [5ED5E0: 178] [24.2.5585.0] [BurgerReporter.cpp] [178] asw::standalone_svc::BurgerReporter::RegisterRPC: Could not get RPC.
+[2025-01-24 15:07:20.004] [warning] [files      ] [ 1968:31892] [1FEA5F: 255] D:\KDY's Ultimate windows repair tool\Tools\cclean\Data overlapped IO failed, error: 995.
+[2025-01-24 15:07:20.004] [warning] [files      ] [ 1968: 2280] [1FEA5F: 255] D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup overlapped IO failed, error: 995.
+[2025-01-24 15:07:55.376] [warning] [ini_access ] [ 1968:14240] [BB8D78: 187] failed to read ini file D:\KDY's Ultimate windows repair tool\Tools\cclean\Data\burger_client.ini
+                                                                              Exception: couldn't open file
+                                                                              Code: 0x00000002 (2)
+[2025-01-24 15:07:55.380] [info   ] [files      ] [ 1968:13444] [1FEA5F: 141] watch task termination for D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup requested
+[2025-01-24 15:07:55.380] [info   ] [files      ] [ 1968:13444] [1FEA5F: 157] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\Setup gracefully terminated
+[2025-01-24 15:07:55.380] [info   ] [files      ] [ 1968:13444] [1FEA5F: 141] watch task termination for D:\KDY's Ultimate windows repair tool\Tools\cclean\Data requested
+[2025-01-24 15:07:55.380] [info   ] [files      ] [ 1968:13444] [1FEA5F: 157] watch task for D:\KDY's Ultimate windows repair tool\Tools\cclean\Data gracefully terminated
+[2025-01-24 15:07:55.491] [info   ] [log_module ] [ 1968:13444] [6E04AA:  31] LogModule is going to be destroyed.
+[2025-01-24 15:07:55.491] [info   ] [log_module ] [ 1968:13444] [6E04AA:  32] =====================================================================================================================
