@@ -33,7 +33,7 @@
 ::978f952a14a936cc963da21a135fa983
 @echo off
 chcp 65001 > nul
-title KDY's Ultimate windows repair tool
+title KDY's Ultimate windows repair tool - lite
 net session >nul 2>&1
 if %errorlevel% neq 0 (
     color 0C
@@ -71,7 +71,7 @@ echo                   [38;2;191;45;224m██████╔╝█████
 echo                   [38;2;213;30;221m██╔══██╗██╔══╝  ██╔═══╝ ██╔══██║██║██╔══██╗       ██║   ██║   ██║██║   ██║██║     [0m
 echo                   [38;2;234;15;217m██║  ██║███████╗██║     ██║  ██║██║██║  ██║       ██║   ╚██████╔╝╚██████╔╝███████╗[0m
 echo                   [38;2;255;0;214m╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝       ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝[0m
-echo.
+echo.                                                                                                                     [38;2;191;45;224mlite
 echo.
 echo [38;2;191;45;224m
 echo.                 
